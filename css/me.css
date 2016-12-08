@@ -1,0 +1,80 @@
+
+@font-face{
+  font-family:'Raleway-Regular';
+  src:url('Raleway-Regular.ttf');
+}
+
+@font-face{
+  font-family:'Raleway-Bold';
+  src:url('Raleway-Bold.ttf');
+}
+
+body {
+  padding: 20px 30px;
+  font-size: 12pt;
+  font-family: 'Raleway-Regular', "Century Gothic", arial; 
+  font-weight: 300;
+  
+    color: black;
+    background: white;
+}
+strong{
+  font-family:'Raleway-Bold';
+}
+p, div, ul, ol{
+    font-size: 1.3em;
+    line-height: 1.5;
+}
+a {
+  color: #39C;
+  font-weight: 400;
+}
+a:hover {
+  color: #FF9900;
+}
+a.sel {
+  color: #000;
+  text-decoration: none;
+}
+#github {
+  position: absolute;
+  right: 30px;
+  top: 7px;
+}
+@media only screen and (max-width: 465px) {
+  #github {
+    display: none;
+  }
+}
+
+.smallPix img{
+  margin: 10px 10px 20px 20px;
+  height: 140px;
+}
+.smallPix1 img{
+  margin: 10px 10px 20px 20px;
+  border: solid 1px silver;
+  height: 140px;
+}
+.mediumPix img{
+  margin: 10px 10px 20px 20px;
+  height: 200px;
+}
+.linkMore{
+  position: relative;
+  top: -20px;
+}
+.sociallinks img{
+  margin: 10px 15px;
+  width:30px;
+} 
+.avatar{
+  width:270px;
+  float:right;
+  margin: 0 10px 0 20px;
+}
+.avatar > img{
+  width: 250px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
