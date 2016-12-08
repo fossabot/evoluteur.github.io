@@ -206,6 +206,7 @@ var mediaList = {
 		{id:'ghost-in-shell', url:'http://www.imdb.com/title/tt0113568/'},
 		{id:'enders', url:'http://www.imdb.com/title/tt1731141/'},
 		{id:'xmen', url:'http://www.imdb.com/title/tt0120903/'},
+		{id:'guardian-galaxy', url:'http://www.imdb.com/title/tt2015381/'},
 		{id:'johncarter', url:'http://www.imdb.com/title/tt0401729/'} 
 	]
 }
