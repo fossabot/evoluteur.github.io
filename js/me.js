@@ -181,6 +181,20 @@ var mediaList = {
 			"url": "http://www.bedetheque.com/serie-44145-BD-Solo.html"
 		}
 	],
+	'comics-amazon': [
+		{
+			"id": "incal1",
+			"url": "https://smile.amazon.com/Incal-Alejandro-Jodorowsky/dp/1594650934?tag=evolutility-20"
+		},
+		{
+			"id": "edena",
+			"url": "https://smile.amazon.com/Moebius-Library-World-Edena/dp/1506702163?tag=evolutility-20"
+		},
+		{
+			"id": "quest-time-bird",
+			"url": "https://smile.amazon.com/Quest-Time-Bird-Serge-Tendre/dp/1782763627?tag=evolutility-20"
+		},
+	],
 	fractals: [
 		{id:'mandelbrot-1', url:'https://en.wikipedia.org/wiki/Benoit_Mandelbrot#/media/File:Mandel_zoom_08_satellite_antenna.jpg'},
 		{id:'mandelbrot-2', url:'https://en.wikipedia.org/wiki/Benoit_Mandelbrot#/media/File:Newton-lplane-Mandelbrot.jpg'},
@@ -234,15 +248,24 @@ function mosaic(id, more){
 	 	ext=extensions[id],
 		arrList=mediaList[id],
 		arrListP = more ? arrList.slice(preview, arrList.length) : arrList.slice(0, preview),
-		mm = arrListP.map(function imageLink(m){
+		imageLink = function (m){
 			if(m.url){
 				return '<a href="'+m.url+'" target="_new"><img src="pix/'+id+'/'+m.id+ext+'"/></a>';
 			}else{
 				return '<img src="pix/'+id+'/'+m.id+ext+'"/>';
 			}
-		})
+		}
+		mm = arrListP.map(imageLink)
 	if(arrList.length>preview & !more){
 		mm.push('<span id="'+id+'"><a class="linkMore" href="javascript:more(\''+id+'\','+preview+')">more...</a></span>');
+	}
+	if(more && id==='comics'){
+		mm.push('<p>Today, you could treat yourself with some excellent French graphic novels '+
+			'like <a href="https://smile.amazon.com/Incal-Alejandro-Jodorowsky/dp/1594650934?tag=evolutility-20">L\'Incal</a>, '+
+			'<a href="https://smile.amazon.com/Moebius-Library-World-Edena/dp/1506702163?tag=evolutility-20">Edena</a>, '+
+			'or <a href="https://smile.amazon.com/Quest-Time-Bird-Serge-Tendre/dp/1782763627?tag=evolutility-20">La Quête de l\'Oiseau du Temps</a> '+
+			' available in English translation at Amazon.com.</p>');
+		mm.push(mediaList['comics-amazon'].map(imageLink).join(''))
 	}
 	return mm.join('');
 }

@@ -11,7 +11,7 @@
 
 body {
   padding: 20px 30px;
-  font-size: 12pt;
+  font-size: 16pt;
   font-family: 'Raleway-Regular', "Century Gothic", arial; 
   font-weight: 300;
   
@@ -20,10 +20,6 @@ body {
 }
 strong{
   font-family:'Raleway-Bold';
-}
-p, div, ul, ol{
-    font-size: 1.3em;
-    line-height: 1.5;
 }
 a {
   color: #39C;
