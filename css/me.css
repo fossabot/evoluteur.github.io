@@ -50,6 +50,7 @@ a.sel {
 .smallPix img{
   margin: 10px 10px 20px 20px;
   height: 140px;
+  min-width: 105px;
 }
 .smallPix1 img{
   margin: 10px 10px 20px 20px;
