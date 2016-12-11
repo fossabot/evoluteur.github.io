@@ -118,7 +118,7 @@ var mediaList = {
 		},
 		{
 			"id": "skydoll1",
-			"url": "http://www.bedetheque.com/serie-507-BD-Sky-Doll.html"
+			"url": "https://www.amazon.com/Sky-Doll-Vol-Barbara-Canepa/dp/0785132368"
 		},
 		{
 			"id": "vampire-benares1",
@@ -198,8 +198,8 @@ var mediaList = {
 	fractals: [
 		{id:'mandelbrot-1', url:'https://en.wikipedia.org/wiki/Benoit_Mandelbrot#/media/File:Mandel_zoom_08_satellite_antenna.jpg'},
 		{id:'mandelbrot-2', url:'https://en.wikipedia.org/wiki/Benoit_Mandelbrot#/media/File:Newton-lplane-Mandelbrot.jpg'},
-		{id:'mandelbrot-3', url:''},
-		{id:'mandelbrot-4', url:''},
+		{id:'mandelbrot-3', url:'https://en.wikipedia.org/wiki/Mandelbrot_set'},
+		{id:'snowflake', url:'https://en.wikipedia.org/wiki/Fractal'},
 	],
 	chakras: [
 		{id:'ch7-silver2', url:'http://www.chakradesign.com'},
