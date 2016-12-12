@@ -10,13 +10,12 @@
 }
 
 body {
+  color: black;
+  background-color: #cfedfb;
   padding: 20px 30px;
   font-size: 16pt;
   font-family: 'Raleway-Regular', "Century Gothic", arial; 
   font-weight: 300;
-  
-    color: black;
-    background: white;
 }
 strong{
   font-family:'Raleway-Bold';
