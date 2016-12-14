@@ -257,7 +257,7 @@ function mosaic(id, more){
 		}
 		mm = arrListP.map(imageLink)
 	if(arrList.length>preview & !more){
-		mm.push('<span id="'+id+'"><a class="linkMore" href="javascript:more(\''+id+'\','+preview+')">more...</a></span>');
+		mm.push('<span id="'+id+'"><a class="linkMore" href="javascript:more(\''+id+'\','+preview+')">More '+id+'...</a></span>');
 	}
 	if(more && id==='comics'){
 		mm.push('<p>Today, you could treat yourself with some excellent French graphic novels '+
