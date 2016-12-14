@@ -5,7 +5,8 @@ var mediaList = {
 		{id:'many-list', url:'http://evoluteur.github.io/evolutility-ui-jquery/demo/index.html#comics/list'},
 		{id:'many-bubbles', url:'http://evoluteur.github.io/evolutility-ui-jquery/demo/index.html#comics/bubbles'},
 		{id:'many-charts', url:'http://evoluteur.github.io/evolutility-ui-jquery/demo/index.html#comics/charts'},
-		{id:'one-edit', url:'http://evoluteur.github.io/evolutility-ui-jquery/demo/index.html#comics/list'},
+		{id:'one-edit', url:'http://evoluteur.github.io/evolutility-ui-jquery/demo/index.html#comics/list',
+			css: 'hideIfSmall'},
 	],
 	comics: [
 		{
@@ -250,7 +251,7 @@ function mosaic(id, more){
 		arrListP = more ? arrList.slice(preview, arrList.length) : arrList.slice(0, preview),
 		imageLink = function (m){
 			if(m.url){
-				return '<a href="'+m.url+'" target="_new"><img src="pix/'+id+'/'+m.id+ext+'"/></a>';
+				return '<a href="'+m.url+'" target="_new"'+(m.css?(' class="'+m.css+'"'):'')+'><img src="pix/'+id+'/'+m.id+ext+'"/></a>';
 			}else{
 				return '<img src="pix/'+id+'/'+m.id+ext+'"/>';
 			}

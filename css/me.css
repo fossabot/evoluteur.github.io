@@ -58,15 +58,18 @@ a.sel {
 }
 .linkMore{
   display: block;
-  width: 160px;
   margin: 0 20px;
 }
 .sociallinks img{
   margin: 10px 10px 0 0;
   width:30px;
 } 
-.avatar{
+
+.avatar-holder{
   float:right;
+    text-align: center;
+}
+.avatar{
   width: 300px;
   padding: 15px;
   margin: 0 10px 10px 20px;
@@ -78,8 +81,18 @@ a.sel {
   border-radius: 5px;
   margin-bottom: 10px;
 }
+
 .foureux{
   margin-top: 50px;
   width: 455px;
   height: 364px;
+}
+
+@media only screen and (max-width: 800px) {
+  .hideIfSmall {
+    display: none;
+  }
+  .avatar-holder{
+    width:100%;
+  }
 }
