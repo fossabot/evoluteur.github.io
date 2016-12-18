@@ -82,10 +82,10 @@ a.sel {
   margin-bottom: 10px;
 }
 
-.foureux{
+.fourreux{
   margin-top: 50px;
-  width: 455px;
-  height: 364px;
+  width: 342px;
+  height: 275px;
 }
 
 @media only screen and (max-width: 800px) {
