@@ -41,7 +41,7 @@ a:hover {
 
 .pixGroup img{
   position: relative;
-  box-shadow: 3px 5px 3px grey;
+  box-shadow: 3px 5px 3px silver;
   margin: 10px 10px 20px 20px;
   border: solid 1px silver;
 }
