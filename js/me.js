@@ -10,190 +10,210 @@ var mediaList = {
 	],
 	comics: [
 		{
-			"id": "incal1",
-			"url": "https://smile.amazon.com/Incal-Alejandro-Jodorowsky/dp/1594650934?tag=evolutility-20"
+			id: "incal1",
+			url: "https://smile.amazon.com/Incal-Alejandro-Jodorowsky/dp/1594650934?tag=evolutility-20"
 		},
 		{
-			"id": "quete1",
-			"url": "https://smile.amazon.com/Quest-Time-Bird-Serge-Tendre/dp/1782763627?tag=evolutility-20"
+			id: "quete1",
+			url: "https://smile.amazon.com/Quest-Time-Bird-Serge-Tendre/dp/1782763627?tag=evolutility-20"
 		},
 		{
-			"id": "lama1",
-			"url": "http://www.bedetheque.com/serie-115-BD-Lama-blanc.html"
+			id: "lama1",
+			url: "http://www.bedetheque.com/serie-115-BD-Lama-blanc.html"
 		},
 		{
-			"id": "saga1",
-			"url": "https://smile.amazon.com/Saga-Book-One-Brian-Vaughan/dp/1632150786?tag=evolutility-20"
+			id: "saga1",
+			url: "https://smile.amazon.com/Saga-Book-One-Brian-Vaughan/dp/1632150786?tag=evolutility-20"
 		},
 		{
-			"id": "monstre1",
-			"url": "http://www.bedetheque.com/BD-Sommeil-du-monstre-Tome-1-1348.html"
+			id: "monstre1",
+			url: "http://www.bedetheque.com/BD-Sommeil-du-monstre-Tome-1-1348.html"
 		},
 		{
-			"id": "pemaling1",
-			"url": "http://www.bedetheque.com/serie-11520-BD-Pema-Ling.html"
+			id: "pemaling1",
+			url: "http://www.bedetheque.com/serie-11520-BD-Pema-Ling.html"
 		},
 		{
-			"id": "4pouvoir1",
-			"url": "http://www.bedetheque.com/serie-592-BD-Quatrieme-pouvoir.html"
+			id: "aslak1",
+			url: "http://www.bedetheque.com/serie-27075-BD-Aslak.html"
 		},
 		{
-			"id": "ivressefantom1",
-			"url": "http://www.bedetheque.com/serie-15118-BD-Ivresse-des-fantomes.html"
+			id: "4pouvoir1",
+			url: "http://www.bedetheque.com/serie-592-BD-Quatrieme-pouvoir.html"
 		},
 		{
-			"id": "niourk1",
-			"url": "http://www.bedetheque.com/serie-35353-BD-NiourK.html"
+			id: "acriborea",
+			url: "http://www.bedetheque.com/serie-13233-BD-Acriborea.html"
 		},
 		{
-			"id": "ronin",
-			"url": "https://smile.amazon.com/Frank-Millers-Ronin-Miller/dp/0930289218?tag=evolutility-20"
+			id: "ivressefantom1",
+			url: "http://www.bedetheque.com/serie-15118-BD-Ivresse-des-fantomes.html"
 		},
 		{
-			"id": "carmenmc1",
-			"url": "http://www.bedetheque.com/serie-70-BD-Carmen-Mc-Callum.html"
+			id: "niourk1",
+			url: "http://www.bedetheque.com/serie-35353-BD-NiourK.html"
 		},
 		{
-			"id": "aquablue1",
-			"url": "http://www.bedetheque.com/serie-48-BD-Aquablue.html"
+			id: "ronin",
+			url: "https://smile.amazon.com/Frank-Millers-Ronin-Miller/dp/0930289218?tag=evolutility-20"
 		},
 		{
-			"id": "zarkass1",
-			"url": "http://www.bedetheque.com/serie-36598-BD-Piege-sur-Zarkass.html"
+			id: "carmenmc1",
+			url: "http://www.bedetheque.com/serie-70-BD-Carmen-Mc-Callum.html"
 		},
 		{
-			"id": "nirvana1",
-			"url": "http://www.bedetheque.com/serie-28647-BD-Nirvana.html"
+			id: "aquablue1",
+			url: "http://www.bedetheque.com/serie-48-BD-Aquablue.html"
 		},
 		{
-			"id": "ocean-amour",
-			"url": "http://www.bedetheque.com/serie-44836-BD-Un-ocean-d-amour.html"
+			id: "zarkass1",
+			url: "http://www.bedetheque.com/serie-36598-BD-Piege-sur-Zarkass.html"
 		},
 		{
-			"id": "chininkel1",
-			"url": "http://www.bedetheque.com/serie-26-BD-Grand-pouvoir-du-Chninkel.html"
+			id: "low",
+			url: "https://smile.amazon.com/Low-Vol-1-Delirium-Hope/dp/1632151944"
 		},
 		{
-			"id": "legendesoublie1",
-			"url": "http://www.bedetheque.com/serie-2-BD-Legendes-des-contrees-oubliees.html"
+			id: "nirvana1",
+			url: "http://www.bedetheque.com/serie-28647-BD-Nirvana.html"
 		},
 		{
-			"id": "kevin1",
-			"url": "http://www.bedetheque.com/serie-560-BD-Litteul-Kevin.html"
+			id: "ocean-amour",
+			url: "http://www.bedetheque.com/serie-44836-BD-Un-ocean-d-amour.html"
 		},
 		{
-			"id": "sillage1",
-			"url": "http://www.bedetheque.com/serie-18-BD-Sillage.html"
+			id: "chininkel1",
+			url: "http://www.bedetheque.com/serie-26-BD-Grand-pouvoir-du-Chninkel.html"
 		},
 		{
-			"id": "edena1",
-			"url": "https://smile.amazon.com/Moebius-Library-World-Edena/dp/1506702163?tag=evolutility-20"
+			id: "legendesoublie1",
+			url: "http://www.bedetheque.com/serie-2-BD-Legendes-des-contrees-oubliees.html"
 		},
 		{
-			"id": "okko1",
-			"url": "http://www.bedetheque.com/serie-10529-BD-Okko.html"
+			id: "kevin1",
+			url: "http://www.bedetheque.com/serie-560-BD-Litteul-Kevin.html"
 		},
 		{
-			"id": "thorgal1",
-			"url": "http://www.bedetheque.com/serie-12-BD-Thorgal.html"
+			id: "sillage1",
+			url: "http://www.bedetheque.com/serie-18-BD-Sillage.html"
 		},
 		{
-			"id": "fleaudieux1",
-			"url": "http://www.bedetheque.com/serie-526-BD-Fleau-des-dieux.html"
+			id: "edena1",
+			url: "https://smile.amazon.com/Moebius-Library-World-Edena/dp/1506702163?tag=evolutility-20"
 		},
 		{
-			"id": "lanfeust1",
-			"url": "http://www.bedetheque.com/serie-6-BD-Lanfeust-de-Troy.html"
+			id: "okko1",
+			url: "http://www.bedetheque.com/serie-10529-BD-Okko.html"
 		},
 		{
-			"id": "oms",
-			"url": "http://www.bedetheque.com/serie-35557-BD-OmS-en-serie.html"
+			id: "thorgal1",
+			url: "http://www.bedetheque.com/serie-12-BD-Thorgal.html"
 		},
 		{
-			"id": "urban1",
-			"url": "http://www.bedetheque.com/serie-29156-BD-Urban.html"
+			id: "chimere1",
+			url: "http://www.bedetheque.com/serie-29524-BD-Chimeres-1887.html"
 		},
 		{
-			"id": "largo1",
-			"url": "http://www.bedetheque.com/serie-14-BD-Largo-Winch.html"
+			id: "fleaudieux1",
+			url: "http://www.bedetheque.com/serie-526-BD-Fleau-des-dieux.html"
 		},
 		{
-			"id": "skydoll1",
-			"url": "https://www.amazon.com/Sky-Doll-Vol-Barbara-Canepa/dp/0785132368"
+			id: "lanfeust1",
+			url: "http://www.bedetheque.com/serie-6-BD-Lanfeust-de-Troy.html"
 		},
 		{
-			"id": "vampire-benares1",
-			"url": "http://www.bedetheque.com/serie-28231-BD-Vampire-de-Benares.html"
+			id: "oms",
+			url: "http://www.bedetheque.com/serie-35557-BD-OmS-en-serie.html"
 		},
 		{
-			"id": "neffous1",
-			"url": "http://www.bedetheque.com/serie-36-BD-Nef-des-fous.html"
+			id: "urban1",
+			url: "http://www.bedetheque.com/serie-29156-BD-Urban.html"
 		},
 		{
-			"id": "segments1",
-			"url": "http://www.bedetheque.com/serie-30223-BD-Segments.html"
+			id: "largo1",
+			url: "http://www.bedetheque.com/serie-14-BD-Largo-Winch.html"
 		},
 		{
-			"id": "orbital1",
-			"url": "http://www.bedetheque.com/serie-13342-BD-Orbital.html"
+			id: "skydoll1",
+			url: "https://www.amazon.com/Sky-Doll-Vol-Barbara-Canepa/dp/0785132368"
 		},
 		{
-			"id": "uw11",
-			"url": "http://www.bedetheque.com/serie-279-BD-Universal-War-One.html"
+			id: "vampire-benares1",
+			url: "http://www.bedetheque.com/serie-28231-BD-Vampire-de-Benares.html"
 		},
 		{
-			"id": "goldencity1",
-			"url": "http://www.bedetheque.com/serie-289-BD-Golden-City.html"
+			id: "neffous1",
+			url: "http://www.bedetheque.com/serie-36-BD-Nef-des-fous.html"
 		},
 		{
-			"id": "manoir1",
-			"url": "http://www.bedetheque.com/serie-16625-BD-Manoir-des-murmures.html"
+			id: "segments1",
+			url: "http://www.bedetheque.com/serie-30223-BD-Segments.html"
 		},
 		{
-			"id": "pandamonia1",
-			"url": "http://www.bedetheque.com/serie-27333-BD-Pandamonia.html"
+			id: "orbital1",
+			url: "http://www.bedetheque.com/serie-13342-BD-Orbital.html"
 		},
 		{
-			"id": "grandmort1",
-			"url": "http://www.bedetheque.com/serie-16623-BD-Grand-Mort.html"
+			id: "uw11",
+			url: "http://www.bedetheque.com/serie-279-BD-Universal-War-One.html"
 		},
 		{
-			"id": "metabaron1",
-			"url": "http://www.bedetheque.com/serie-5124-BD-Meta-barons.html"
+			id: "goldencity1",
+			url: "http://www.bedetheque.com/serie-289-BD-Golden-City.html"
 		},
 		{
-			"id": "technoperes1",
-			"url": "http://www.bedetheque.com/serie-65-BD-Technoperes.html"
+			id: "manoir1",
+			url: "http://www.bedetheque.com/serie-16625-BD-Manoir-des-murmures.html"
 		},
 		{
-			"id": "passagersvent1",
-			"url": "http://www.bedetheque.com/serie-108-BD-Passagers-du-vent.html"
+			id: "pandamonia1",
+			url: "http://www.bedetheque.com/serie-27333-BD-Pandamonia.html"
 		},
 		{
-			"id": "garulfo1",
-			"url": "http://www.bedetheque.com/serie-57-BD-Garulfo.html"
+			id: "travis1",
+			url: "http://www.bedetheque.com/serie-75-BD-Travis.html"
 		},
 		{
-			"id": "meteors",
-			"url": "http://www.bedetheque.com/serie-17452-BD-Meteors.html"
+			id: "grandmort1",
+			url: "http://www.bedetheque.com/serie-16623-BD-Grand-Mort.html"
 		},
 		{
-			"id": "solo",
-			"url": "http://www.bedetheque.com/serie-44145-BD-Solo.html"
+			id: "metabaron1",
+			url: "http://www.bedetheque.com/serie-5124-BD-Meta-barons.html"
+		},
+		{
+			id: "technoperes1",
+			url: "http://www.bedetheque.com/serie-65-BD-Technoperes.html"
+		},
+		{
+			id: "passagersvent1",
+			url: "http://www.bedetheque.com/serie-108-BD-Passagers-du-vent.html"
+		},
+		{
+			id: "garulfo1",
+			url: "http://www.bedetheque.com/serie-57-BD-Garulfo.html"
+		},
+		{
+			id: "meteors",
+			url: "http://www.bedetheque.com/serie-17452-BD-Meteors.html"
+		},
+		{
+			id: "solo",
+			url: "http://www.bedetheque.com/serie-44145-BD-Solo.html"
 		}
 	],
 	'comics-amazon': [
 		{
-			"id": "incal1",
-			"url": "https://smile.amazon.com/Incal-Alejandro-Jodorowsky/dp/1594650934?tag=evolutility-20"
+			id: "incal1",
+			url: "https://smile.amazon.com/Incal-Alejandro-Jodorowsky/dp/1594650934?tag=evolutility-20"
 		},
 		{
-			"id": "edena",
-			"url": "https://smile.amazon.com/Moebius-Library-World-Edena/dp/1506702163?tag=evolutility-20"
+			id: "edena",
+			url: "https://smile.amazon.com/Moebius-Library-World-Edena/dp/1506702163?tag=evolutility-20"
 		},
 		{
-			"id": "quest-time-bird",
-			"url": "https://smile.amazon.com/Quest-Time-Bird-Serge-Tendre/dp/1782763627?tag=evolutility-20"
+			id: "quest-time-bird",
+			url: "https://smile.amazon.com/Quest-Time-Bird-Serge-Tendre/dp/1782763627?tag=evolutility-20"
 		},
 	],
 	fractals: [
@@ -205,7 +225,7 @@ var mediaList = {
 	chakras: [
 		{id:'ch7-silver2', url:'http://www.chakradesign.com'},
 		{id:'cc7-smcjalc', url:'http://www.chakradesign.com/gallery.html'},
-		{id:'c6-do', url:'http://www.chakradesign.com/gallery.html'},
+		{id:'cc7-gold', url:'http://www.chakradesign.com/gallery.html'},
 		{id:'cc7-arwen', url:'http://www.chakradesign.com/gallery.html'},
 	],
 	movies: [
@@ -261,8 +281,8 @@ function mosaic(id, more){
 		mm.push('<span id="'+id+'"><a class="linkMore" href="javascript:more(\''+id+'\','+preview+')">more of my favorite '+id+'...</a></span>');
 	}
 	if(more && id==='comics'){
-		mm.push('<p>Today, you could treat yourself with some excellent French graphic novels '+
-			'like <a href="https://smile.amazon.com/Incal-Alejandro-Jodorowsky/dp/1594650934?tag=evolutility-20">L\'Incal</a>, '+
+		mm.push('<p>Today, you could treat yourself with some excellent French graphic novels like '+
+			'<a href="https://smile.amazon.com/Incal-Alejandro-Jodorowsky/dp/1594650934?tag=evolutility-20">L\'Incal</a>, '+
 			'<a href="https://smile.amazon.com/Moebius-Library-World-Edena/dp/1506702163?tag=evolutility-20">Edena</a>, '+
 			'or <a href="https://smile.amazon.com/Quest-Time-Bird-Serge-Tendre/dp/1782763627?tag=evolutility-20">La Quête de l\'Oiseau du Temps</a> '+
 			' available in English translation at Amazon.com.</p>');

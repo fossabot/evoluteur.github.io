@@ -27,10 +27,7 @@ a {
 a:hover {
   color: #FF9900;
 }
-a.sel {
-  color: #000;
-  text-decoration: none;
-}
+
 #github {
   position: absolute;
   right: 30px;
@@ -42,20 +39,31 @@ a.sel {
   }
 }
 
-.smallPix img{
+.pixGroup img{
+  position: relative;
+  box-shadow: 3px 5px 3px grey;
   margin: 10px 10px 20px 20px;
+  border: solid 1px silver;
+}
+.pixGroup img:hover{
+  top: 3px;
+  left: 2px;
+  box-shadow: 1px 2px 1px silver;
+  border-color: orange;
+  transition: top 0.6s, left 0.6s;
+}
+
+.smallPix img{
   height: 140px;
   min-width: 105px;
 }
-.smallPix1 img{
-  margin: 10px 10px 20px 20px;
-  border: solid 1px silver;
+.chakraPix img{
   height: 140px;
 }
 .mediumPix img{
-  margin: 10px 10px 20px 20px;
   height: 200px;
 }
+
 .linkMore{
   display: block;
   margin: 0 20px;
