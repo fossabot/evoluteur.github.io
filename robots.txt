@@ -1,0 +1,6 @@
+User-agent: * 
+Disallow: /css/ 
+Disallow: /js/ 
+Disallow: /pix/movies/ 
+Disallow: /pix/comics/ 
+Disallow: /pix/social/ 

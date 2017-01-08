@@ -1,0 +1,3 @@
+This is the Home Page of Olivier Giulieri.
+
+Some HTML, a little bit of CSS and Javascript, and lots of images to introduce myself on-line.
