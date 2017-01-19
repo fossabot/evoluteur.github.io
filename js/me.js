@@ -1,6 +1,6 @@
 
 var mediaList = {
-	evol: [
+	evol: shuffle([
 		{
 			id:'many-list', 
 			title: 'List View',
@@ -17,7 +17,7 @@ var mediaList = {
 			url:'http://evoluteur.github.io/evolutility-ui-jquery/demo/index.html#comics/charts',
 			css: 'hideIfSmall'
 		},
-	],
+	]),
 	recipes: [
 		{
 			id:'creme-brulee', 
@@ -35,7 +35,7 @@ var mediaList = {
 			url:'recipes/desserts/madeleines.html' 
 		},
 	],
-	//comics: randomStart([
+	//comics: shuffle([
 	comics: ([
 		{
 			id: "incal1",
@@ -355,7 +355,7 @@ var mediaList = {
 			url:'http://www.chakradesign.com/gallery.html'
 		},
 	],
-	movies: randomStart([
+	movies: shuffle([
 		{id:'matrix', title:'Matrix', url:'http://www.imdb.com/title/tt0133093/'},
 		{id:'dark-city', title:'Dark City', url:'http://www.imdb.com/title/tt0118929/'},
 		{id:'gattaca', title:'Gattaca', url:'http://www.imdb.com/title/tt0119177/'},
@@ -385,7 +385,7 @@ var mediaList = {
 	})
 }
 
-function randomStart(arr){
+function shuffle(arr){
 	var ln = arr.length,
 		rnd = Math.floor(Math.random() * (ln));
 
@@ -428,7 +428,6 @@ function mosaic(id, more){
 		arrList=mediaList[id],
 		ml = more ? 24 : arrList.length,
 		arrListP = more ? arrList.slice(preview, ml) : arrList.slice(0, preview),
-		linkTarget = id!='recipes',
 		pixPath = pixDir(id),
 		imageLink = function (m){
 			var pix='<img src="'+pixPath+m.id+ext+'"/>';
@@ -438,7 +437,7 @@ function mosaic(id, more){
 			var h = '<div class="pixTitleHolder">';
 			if(m.url){
 				h+= '<a href="'+m.url+'"'+
-						(linkTarget?' target="_blank"':'')+
+						(id!='recipes' ? ' target="_blank"':'')+
 						(m.css?(' class="'+m.css+'"'):'')+
 					'>'+pix+'</a>';
 			}else{
@@ -466,6 +465,10 @@ function mosaic(id, more){
 		mm.push('<p class="clearer">I\'m also getting into American comics.</p>');
 		mm.push(mediaList['comics-us'].map(imageLink).join(''))
 	}
-	mm.push('<div class="clearer"/>')
+	mm.push('<div class="clearer"/>');
 	return mm.join('');
+}
+
+function setMosaic(id){
+	document.getElementById(id+'2').innerHTML = mosaic(id);
 }
