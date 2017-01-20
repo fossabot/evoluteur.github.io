@@ -472,3 +472,6 @@ function mosaic(id, more){
 function setMosaic(id){
 	document.getElementById(id+'2').innerHTML = mosaic(id);
 }
+function setPage(){
+	['evol','comics','recipes','movies','fractals','chakras'].forEach(setMosaic);
+}
