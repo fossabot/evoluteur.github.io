@@ -311,6 +311,11 @@ var mediaList = {
 			id: "quest-time-bird",
 			title: 'The Quest for the Time Bird',
 			url: "https://smile.amazon.com/Quest-Time-Bird-Serge-Tendre/dp/1782763627/"
+		},
+		{
+			id: "4power",
+			title: 'The Fourth Power',
+			url: "https://smile.amazon.com/Fourth-Power-Oversized-Deluxe/dp/1594653011"
 		}
 	],
 	'comics-us': BDs.filter(function(bd){
@@ -405,7 +410,7 @@ function mosaic(id, more){
 	}else{
 		more= more ? 1 : 0;
 	}
-	var preview=(id==='movies' || id==='comics')?6:10,
+	var preview=(id==='movies' || id==='comics')?5:10,
 	 	ext=id==='evol'?'.gif':'.jpg',
 		arrList=mediaList[id],
 		ml = more ? 24 : arrList.length,
@@ -442,7 +447,7 @@ function mosaic(id, more){
 	}
 	if(more===1 && (id==='comics')){
 		mm.push('<span id="'+id+'-2_x"><a class="linkMore" href="javascript:more(\'comics-2\')">[Even more graphic novels...]</a></span>');
-		mm.push('<p class="clearer">Did you know that some of the best French graphic novels are now available in English?</p>');
+		mm.push('<p class="clearer">Did you know that some of the best European graphic novels are now available in English?</p>');
 		mm.push(mediaList['comics-amazon'].map(imageLink).join(''))
 		mm.push('<p class="clearer">I\'m also getting into American comics.</p>');
 		mm.push(mediaList['comics-us'].map(imageLink).join(''))
