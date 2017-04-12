@@ -464,6 +464,23 @@ function mosaic(id, more){
 function setMosaic(id){
 	document.getElementById(id+'2').innerHTML = mosaic(id);
 }
+function setMobMosaic(id){
+	var ext=id==='evol'?'.gif':'.jpg',
+		arrList=mediaList[id].slice(0,5),
+		holder=document.getElementById(id+'2'),
+		dir='pix/'+id+'/';
+
+	arrList.forEach(function(i){
+		var p=document.createElement("IMG");
+		p.src=dir+i.id+ext;
+		holder.appendChild(p);
+	});
+}
 function setPage(){
-	['evol','comics','recipes','movies','fractals','art','chakras'].forEach(setMosaic);
+	['evol','comics','recipes','movies','fractals','art','chakras']
+		.forEach(isMobile()?setMobMosaic:setMosaic);
+}
+
+function isMobile(){
+	return typeof window.orientation !== 'undefined';
 }
