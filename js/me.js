@@ -327,6 +327,11 @@ var mediaList = {
 		{id:'mandelbrot_one_island', title:'Julia "island"', url:'https://en.wikipedia.org/wiki/Mandelbrot_set#/media/File:Mandel_zoom_15_one_island.jpg'},
 		{id:'snowflake', title:'Snowflake', url:'http://gizmodo.com/this-physicists-designer-snowflakes-are-dazzling-1748893157'},
 	],
+	art: [
+		{id:'vangogh', title:'Van Gogh', url:'https://www.google.com/search?q=van+gogh&newwindow=1&source=lnms&tbm=isch&sa=X'},
+		{id:'hokusai', title:'Hokusai', url:'https://www.google.com/search?q=hokusai&newwindow=1&source=lnms&tbm=isch'},
+		{id:'moebius', title:'Moebius', url:'https://www.moebius.fr/'},
+	],
 	chakras: [
 		{	
 			id:'ch7-silver2', 
@@ -460,5 +465,5 @@ function setMosaic(id){
 	document.getElementById(id+'2').innerHTML = mosaic(id);
 }
 function setPage(){
-	['evol','comics','recipes','movies','fractals','chakras'].forEach(setMosaic);
+	['evol','comics','recipes','movies','fractals','art','chakras'].forEach(setMosaic);
 }
