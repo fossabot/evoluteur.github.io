@@ -468,7 +468,7 @@ function setMobMosaic(id){
 	});
 }
 function setPage(){
-	['evol','comics','comics-us','comics-amazon','recipes','movies','fractals','art','chakras']
+	['evol','comics','comics-us','comics-amazon','recipes','movies','fractals','chakras']
 		.forEach(isMobile()?setMobMosaic:setMosaic);
 }
 
