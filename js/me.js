@@ -25,12 +25,6 @@ var BDs=[
 		url: "http://www.bedetheque.com/serie-30223-BD-Segments.html"
 	},
 	{
-		id: "saga1",
-		title: "Saga",
-		url: "https://smile.amazon.com/Saga-Book-One-Brian-Vaughan/dp/1632150786",
-		us: true
-	},
-	{
 		id: "quete1",
 		title: "La Quête de l'Oiseau du Temps",
 		url: "https://smile.amazon.com/Quest-Time-Bird-Serge-Tendre/dp/1782763627"
@@ -66,12 +60,6 @@ var BDs=[
 		url: "http://www.bedetheque.com/serie-15118-BD-Ivresse-des-fantomes.html"
 	},
 	{
-		id: "ronin",
-		title: "Ronin",
-		url: "https://smile.amazon.com/Frank-Millers-Ronin-Miller/dp/0930289218",
-		us: true
-	},
-	{
 		id: "carmenmc1",
 		title: "Carmen Mc-Callum",
 		url: "http://www.bedetheque.com/serie-70-BD-Carmen-Mc-Callum.html"
@@ -85,12 +73,6 @@ var BDs=[
 		id: "zarkass1",
 		title: "Piege sur Zarkass",
 		url: "http://www.bedetheque.com/serie-36598-BD-Piege-sur-Zarkass.html"
-	},
-	{
-		id: "low",
-		title: "Low",
-		url: "https://smile.amazon.com/Low-Vol-1-Delirium-Hope/dp/1632151944",
-		us: true
 	},
 	{
 		id: "nirvana1",
@@ -242,12 +224,6 @@ var BDs=[
 		title: 'Solo',
 		url: "http://www.bedetheque.com/serie-44145-BD-Solo.html"
 	},
-	{
-		id: "descender",
-		title: "Descender",
-		url: "https://smile.amazon.com/Descender-Vol-1-Tin-Stars/dp/1632154269",
-		us: true
-	},
 ]
 var mediaList = {
 	evol: shuffle([
@@ -318,19 +294,38 @@ var mediaList = {
 			url: "https://smile.amazon.com/Fourth-Power-Oversized-Deluxe/dp/1594653011"
 		}
 	],
-	'comics-us': BDs.filter(function(bd){
-		return bd.us;
-	}),
+	'comics-us': [
+		{
+			id: "saga1",
+			title: "Saga",
+			url: "https://smile.amazon.com/Saga-Book-One-Brian-Vaughan/dp/1632150786",
+		},
+		{
+			id: "androitsheep1",
+			title: "Do androids dream of electronic sheeps",
+			url: "https://smile.amazon.com/Androids-Dream-Electric-Sheep-Vol/dp/1608865002",
+		},
+		{
+			id: "ronin",
+			title: "Ronin",
+			url: "https://smile.amazon.com/Frank-Millers-Ronin-Miller/dp/0930289218",
+		},
+		{
+			id: "low",
+			title: "Low",
+			url: "https://smile.amazon.com/Low-Vol-1-Delirium-Hope/dp/1632151944",
+		},
+		{
+			id: "descender",
+			title: "Descender",
+			url: "https://smile.amazon.com/Descender-Vol-1-Tin-Stars/dp/1632154269",
+		},
+	],
 	fractals: [
 		{id:'mandelbrot-1', title:'Mandelbrot set', url:'https://en.wikipedia.org/wiki/Benoit_Mandelbrot#/media/File:Mandel_zoom_08_satellite_antenna.jpg'},
 		{id:'mandelbrot-2', title:'Mandelbrot set', url:'https://en.wikipedia.org/wiki/Benoit_Mandelbrot#/media/File:Newton-lplane-Mandelbrot.jpg'},
 		{id:'mandelbrot_one_island', title:'Julia "island"', url:'https://en.wikipedia.org/wiki/Mandelbrot_set#/media/File:Mandel_zoom_15_one_island.jpg'},
 		{id:'snowflake', title:'Snowflake', url:'http://gizmodo.com/this-physicists-designer-snowflakes-are-dazzling-1748893157'},
-	],
-	art: [
-		{id:'vangogh', title:'Van Gogh', url:'https://www.google.com/search?q=van+gogh&newwindow=1&source=lnms&tbm=isch&sa=X'},
-		{id:'hokusai', title:'Hokusai', url:'https://www.google.com/search?q=hokusai&newwindow=1&source=lnms&tbm=isch'},
-		{id:'moebius', title:'Moebius', url:'https://www.moebius.fr/'},
 	],
 	chakras: [
 		{	
@@ -452,10 +447,6 @@ function mosaic(id, more){
 	}
 	if(more===1 && (id==='comics')){
 		mm.push('<span id="'+id+'-2_x"><a class="linkMore" href="javascript:more(\'comics-2\')">[Even more graphic novels...]</a></span>');
-		mm.push('<p class="clearer">Did you know that some of the best European graphic novels are now available in English?</p>');
-		mm.push(mediaList['comics-amazon'].map(imageLink).join(''))
-		mm.push('<p class="clearer">I\'m also getting into American comics.</p>');
-		mm.push(mediaList['comics-us'].map(imageLink).join(''))
 	}
 	mm.push('<div class="clearer"/>');
 	return mm.join('');
@@ -477,7 +468,7 @@ function setMobMosaic(id){
 	});
 }
 function setPage(){
-	['evol','comics','recipes','movies','fractals','art','chakras']
+	['evol','comics','comics-us','comics-amazon','recipes','movies','fractals','art','chakras']
 		.forEach(isMobile()?setMobMosaic:setMosaic);
 }
 
