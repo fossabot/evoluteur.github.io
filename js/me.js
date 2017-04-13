@@ -226,11 +226,11 @@ var BDs=[
 	},
 ]
 var mediaList = {
-	evol: shuffle([
+	evol: [
 		{
-			id:'many-list', 
-			title: 'List View',
-			url:'http://evoluteur.github.io/evolutility-ui-jquery/demo/index.html#comics/list'
+			id:'d3-table-cards', 
+			title: 'D3 Table/Cards',
+			url:'http://evoluteur.github.io/d3-table-cards'
 		},
 		{
 			id:'many-bubbles', 
@@ -243,7 +243,7 @@ var mediaList = {
 			url:'http://evoluteur.github.io/evolutility-ui-jquery/demo/index.html#comics/charts',
 			css: 'hideIfSmall'
 		},
-	]),
+	],
 	recipes: [
 		{
 			id:'creme-brulee', 
@@ -327,6 +327,12 @@ var mediaList = {
 		{id:'mandelbrot_one_island', title:'Julia "island"', url:'https://en.wikipedia.org/wiki/Mandelbrot_set#/media/File:Mandel_zoom_15_one_island.jpg'},
 		{id:'snowflake', title:'Snowflake', url:'http://gizmodo.com/this-physicists-designer-snowflakes-are-dazzling-1748893157'},
 	],
+ 	art: [
+ 		{id:'monet', title:'Monet', url:'https://www.google.com/search?tbm=isch&q=claude+monet+impressionism'},
+ 		{id:'vangogh', title:'Van Gogh', url:'https://www.google.com/search?q=van+gogh&newwindow=1&source=lnms&tbm=isch'},
+ 		{id:'hokusai', title:'Hokusai', url:'https://www.google.com/search?q=hokusai&newwindow=1&source=lnms&tbm=isch'},
+ 		{id:'moebius', title:'Moebius', url:'https://www.moebius.fr/'},
+ 	],
 	chakras: [
 		{	
 			id:'ch7-silver2', 
@@ -396,8 +402,6 @@ var linkCaptions={
 function pixDir(id){
 	if(id.startsWith('comic')){
 		return 'pix/comics/'
-	}else if(id==='neige'){
-		return 'pix/neige/'
 	}else{
 		return 'pix/'+id+'/'
 	}
@@ -468,7 +472,7 @@ function setMobMosaic(id){
 	});
 }
 function setPage(){
-	['evol','comics','comics-us','comics-amazon','recipes','movies','fractals','chakras']
+	['evol','comics','comics-us','comics-amazon','recipes','movies','fractals','art','chakras']
 		.forEach(isMobile()?setMobMosaic:setMosaic);
 }
 
