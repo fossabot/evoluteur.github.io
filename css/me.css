@@ -16,16 +16,22 @@ body {
   font-size: 16pt;
   font-family: 'Raleway-Regular', "Century Gothic", arial;
   font-weight: 300;
+  background-image: url("../pix/bg.gif");
 }
 strong{
   font-family:'Raleway-Bold';
 }
 a {
+  transition: all 0.5s ease;
   color: #39C;
+  background-color: white;
   font-weight: 400;
 }
 a:hover {
-  color: #FF9900;
+  transition: all 0.5s ease;
+  color: navy;
+  background-color: #ffd54f;
+  text-decoration: none;
 }
 
 .helloworld{
@@ -77,10 +83,12 @@ p.clearer{
   width: 108px;
 }
 
-.linkMore{
-  clear: both;
-  font-size: .8em;
+.block{
   display: block;
+  clear: both;
+}
+.linkMore{
+  font-size: .8em;
   margin: 0 20px;
 }
 #IceCream{
@@ -124,7 +132,9 @@ p.clearer{
   -o-filter: grayscale(100%); 
   -o-transition: .3s ease-in-out;
 }
-
+.sociallinks a {
+  background-color: white;
+}
 .avatar-holder{
   float:right;
   text-align: center;
@@ -176,6 +186,7 @@ p.clearer{
     padding: 0 5px;
     display: none;
     white-space: nowrap;
+    background-color: white;
 /*
     font-size: .9em;
     width:300px;
@@ -405,13 +416,14 @@ section.c0{
 }
 .nav > a {
   color: #92cddc;
+  background-color: black !important;
   text-decoration: none;
 }
 .nav > a:hover {
   color: #FF9900;
 }
 
-.flower{
+.bottomSpace{
   margin-top:100px;
-  height: 30%;
+  height: 40%;
 }

@@ -391,7 +391,9 @@ function showIceCream(){
 }
 
 function more(id, min){
-	document.getElementById(id+'_x').innerHTML=mosaic(id, true)
+	var elem=document.getElementById(id+'_x');
+	elem.className='';
+	elem.innerHTML=mosaic(id, true)
 }
 
 var linkCaptions={
@@ -447,10 +449,10 @@ function mosaic(id, more){
 		mm = arrListP.map(imageLink);
 
 	if(arrList.length>preview & !more){
-		mm.push('<span id="'+id+'_x"><a class="linkMore" href="javascript:more(\''+id+'\','+preview+')">['+linkCaptions[id]+']</a></span>');
+		mm.push('<span id="'+id+'_x" class="block"><a class="linkMore" href="javascript:more(\''+id+'\','+preview+')">['+linkCaptions[id]+']</a></span>');
 	}
 	if(more===1 && (id==='comics')){
-		mm.push('<span id="'+id+'-2_x"><a class="linkMore" href="javascript:more(\'comics-2\')">[Even more graphic novels...]</a></span>');
+		mm.push('<span id="'+id+'-2_x" class="block"><a class="linkMore" href="javascript:more(\'comics-2\')">[Even more graphic novels...]</a></span>');
 	}
 	mm.push('<div class="clearer"/>');
 	return mm.join('');
