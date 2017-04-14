@@ -16,7 +16,7 @@ body {
   font-size: 16pt;
   font-family: 'Raleway-Regular', "Century Gothic", arial;
   font-weight: 300;
-  background-image: url("../pix/bg.gif");
+  background-image: url("bg.gif");
 }
 strong{
   font-family:'Raleway-Bold';
@@ -170,9 +170,6 @@ p.clearer{
   border-radius: 5px;
   margin-bottom: 10px;
 }
-.avatar .pixTitle{
-  top:-30px;
-}
 
 .pixTitleHolder{
   position: relative;
@@ -325,9 +322,6 @@ section.c0{
   right:-5px;
   width:50px;
 }
-.c7-dots:hover{
-  transition: opacity 1s;
-}
 .c7-dots > a{
   z-index: 1000;
   text-decoration: none;
@@ -336,7 +330,6 @@ section.c0{
 .c7-dots >a>.sTitle{
   z-index: 10;
     opacity: 0;
-    transition: opacity 1s;
     display: block;
     position: absolute;
     font-size: 1.2em;
