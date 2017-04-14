@@ -397,9 +397,9 @@ function more(id, min){
 }
 
 var linkCaptions={
-	comics: 'More graphic novels...',
-	'comics-2': 'Even more graphic novels...',
-	movies: 'More sci-fi movies...'
+	comics: 'Show more graphic novels',
+	'comics-2': 'Show even more graphic novels',
+	movies: 'Show more sci-fi movies'
 }
 function pixDir(id){
 	if(id.startsWith('comic')){
@@ -449,13 +449,16 @@ function mosaic(id, more){
 		mm = arrListP.map(imageLink);
 
 	if(arrList.length>preview & !more){
-		mm.push('<span id="'+id+'_x" class="block"><a class="linkMore" href="javascript:more(\''+id+'\','+preview+')">['+linkCaptions[id]+']</a></span>');
+		mm.push(linkMore(id, preview));
 	}
 	if(more===1 && (id==='comics')){
-		mm.push('<span id="'+id+'-2_x" class="block"><a class="linkMore" href="javascript:more(\'comics-2\')">[Even more graphic novels...]</a></span>');
+		mm.push(linkMore(id+'-2', 0));
 	}
 	mm.push('<div class="clearer"/>');
 	return mm.join('');
+}
+function linkMore(id, preview){
+	return '<span id="'+id+'_x" class="block"><a class="linkMore" href="javascript:more(\''+id+'\','+preview+')">[ '+linkCaptions[id]+' ]</a></span>';
 }
 
 function setMosaic(id){
