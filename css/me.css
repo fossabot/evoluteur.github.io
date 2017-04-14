@@ -260,7 +260,7 @@ p.clearer{
 section{
   position: relative;
   padding: 10px 10px 10px 90px;
-  border-left: solid 3px white;
+  border-left: solid 3px transparent;
   margin: 20px 45px 20px 5px;
 }
 
