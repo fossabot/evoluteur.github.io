@@ -241,7 +241,6 @@ var mediaList = {
 			id:'many-charts', 
 			title: 'Charts View',
 			url:'http://evoluteur.github.io/evolutility-ui-jquery/demo/index.html#comics/charts',
-			css: 'hideIfSmall'
 		},
 	],
 	recipes: [
@@ -319,6 +318,11 @@ var mediaList = {
 			id: "descender",
 			title: "Descender",
 			url: "https://smile.amazon.com/Descender-Vol-1-Tin-Stars/dp/1632154269",
+		},
+		{
+			id: "east-of-west",
+			title: "East of West",
+			url: "https://smile.amazon.com/East-West-Promise-Jonathan-Hickman/dp/1607067706/",
 		},
 	],
 	fractals: [
@@ -416,7 +420,7 @@ function mosaic(id, more){
 	}else{
 		more= more ? 1 : 0;
 	}
-	var preview=(id==='movies' || id==='comics')?5:10,
+	var preview=(id==='movies' || id==='comics')?6:10,
 	 	ext=id==='evol'?'.gif':'.jpg',
 		arrList=mediaList[id],
 		ml = more ? 24 : arrList.length,
