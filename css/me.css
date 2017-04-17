@@ -175,6 +175,9 @@ p.clearer{
   position: relative;
   float: left;
 }
+.pixTitleHolder > a{
+  background-color: transparent !important;
+}
 .pixTitle{
     z-index: 700;
     position: absolute;
@@ -316,39 +319,51 @@ section.c0{
 
 .c7-dots{
   z-index: 1500;
-  padding: 5px 0 5px 5px;
+  padding: 5px 0;
   position: fixed;
-  top:70px;
-  right:-5px;
-  width:50px;
+  top:35px;
+  right:-10px;
+  width:47px;
 }
 .c7-dots > a{
-  z-index: 1000;
-  text-decoration: none;
   position: relative;
+  left: -10px;
+  z-index: 1000;
+  display: block;
+  height: 25px;
+  margin: 10px;
+  background-color: transparent !important;
+  text-decoration: none;
 }
-.c7-dots >a>.sTitle{
+.c7-dots > a >.sTitle{
   z-index: 10;
     opacity: 0;
     display: block;
     position: absolute;
     font-size: 1.2em;
-    left: -32px;
-    top: 71px;
+    left: -70px;
+    top: 65px;
     border: none;
 }
 .c7-dots > a:hover > .sTitle{
   z-index: 10;
     opacity: 1;
-    left: -122px;
+    top: 90px;
+    left: -136px;
     transition: left .3s;
 }
 .c7-dots > a > div{
   z-index: 100;
+  position: absolute;
   border-radius: 50%;
   height: 18px;
   width: 18px;
-  margin: 10px;
+}
+.c7-dots > a:hover > div{
+  top: -4px;
+  left: -4px;
+  height: 26px;
+  width: 26px;
 }
 
 .c7-dots-1>div{
