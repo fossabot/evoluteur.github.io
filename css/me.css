@@ -146,11 +146,16 @@ p.clearer{
   margin: 0 10px 10px 20px;
   background-color: white;
 }
-.avatar >div> img{
+.avatar > div > img{
   height: 300px;
   width: 300px;
-  border-radius: 5px;
+  cursor: pointer;
+  border: solid 3px white;
+  border-radius: 10px;
   margin-bottom: 10px;
+}
+.avatar > div > img:hover{
+  border-color: #4dd0e1;
 }
 
 .pixTitleHolder{

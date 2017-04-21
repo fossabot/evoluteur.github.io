@@ -363,11 +363,12 @@ var mediaList = {
 		{id:'underworld', title:'Underworld', url:'http://www.imdb.com/title/tt0320691'},
 	])
 }
+var pixMe=['olivier-giulieri','og-neige','og-closeup'];
+var pixMeIdx=0;
 
 function shuffle(arr){
 	var ln = arr.length,
 		rnd = Math.floor(Math.random() * (ln));
-
 	return arr.slice(rnd, ln).concat(arr.slice(0, rnd))
 }
 
@@ -375,6 +376,11 @@ function more(id, min){
 	var elem=document.getElementById(id+'_x');
 	elem.className='';
 	elem.innerHTML=mosaic(id, true)
+}
+
+function switchPix(elem){
+	pixMeIdx=pixMeIdx>(pixMe.length-2)?0:pixMeIdx+1;
+	elem.src='pix/olivier/'+pixMe[pixMeIdx]+'.jpg';
 }
 
 var linkCaptions={
