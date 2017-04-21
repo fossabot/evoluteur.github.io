@@ -379,7 +379,7 @@ function more(id, min){
 
 var linkCaptions={
 	comics: 'Show more French graphic novels',
-	comics_us: 'Show even more graphic novels',
+	comics_2: 'Show even more graphic novels',
 	movies: 'Show more sci-fi movies'
 }
 function pixDir(id){
@@ -391,7 +391,7 @@ function pixDir(id){
 }
 
 function mosaic(id, more){
-	if(id==='comics-2'){
+	if(id==='comics_2'){
 		id='comics';
 		more=2;
 	}else{
@@ -433,7 +433,7 @@ function mosaic(id, more){
 		mm.push(linkMore(id, preview));
 	}
 	if(more===1 && (id==='comics')){
-		mm.push(linkMore(id+'-2', 0));
+		mm.push(linkMore(id+'_2', 0));
 	}
 	mm.push('<div class="clearer"/>');
 	return mm.join('');
