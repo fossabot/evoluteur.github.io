@@ -16,7 +16,7 @@ body {
   font-size: 16pt;
   font-family: 'Raleway-Regular', "Century Gothic", arial;
   font-weight: 300;
-  background-image: url("../pix/bg.gif");
+  /*background-image: url("../pix/bg.gif");*/
 }
 strong{
   font-family:'Raleway-Bold';
@@ -52,13 +52,12 @@ p.clearer{
   position: relative;
   box-shadow: 3px 5px 3px silver;
   margin: 20px 10px 20px 20px;
-  border: solid 1px silver;
+  border: solid 2px silver;
 }
 .pixGroup img:hover{
   top: 3px;
   left: 2px;
   box-shadow: 1px 2px 1px silver;
-  border-color: orange;
   transition: top 0.6s, left 0.6s;
 }
 
@@ -68,7 +67,6 @@ p.clearer{
   width: 110px;
 }
 .evolPix img{
-  width: 200px;
   height:156px;
 }
 .smallPix img{
@@ -88,27 +86,10 @@ p.clearer{
   clear: both;
 }
 .linkMore{
-  font-size: .8em;
+  font-size: .9em;
+  font-style: italic;
   margin: 0 20px;
 }
-#IceCream{
-  display: none;
-}
-.iceCreamCard>div{
-  float:left;
-    margin: 10px 10px 0 0;
-    float: left;
-    width: 250px;
-    height: 200px;
-}
-.iceCreamCard>div>strong{
-  margin-left: 17px;
-}
-#linkIceCream{
-    clear: both;
-    font-size: .8em;
-    margin: 0 20px;
-} 
 
 /* https://gist.github.com/jbergantine/5243223 */
 .sociallinks img:hover {
@@ -138,6 +119,7 @@ p.clearer{
 .avatar-holder{
   float:right;
   text-align: center;
+  margin-bottom: 10px;
 }
 @media only screen and (max-width: 480px) {
   .avatar-holder{
@@ -160,8 +142,8 @@ p.clearer{
 .avatar{
   font-family: 'Raleway-Regular', "Century Gothic", arial;
   width: 300px;
-  padding: 15px;
-  margin: 0 0 10px 20px;
+  padding: 5px;
+  margin: 0 10px 10px 20px;
   background-color: white;
 }
 .avatar >div> img{
@@ -183,6 +165,7 @@ p.clearer{
     position: absolute;
     left: 20px;
     top:-10px;
+    font-family:'Raleway-Bold';
     padding: 0 5px;
     display: none;
     white-space: nowrap;
@@ -207,6 +190,7 @@ p.clearer{
     top: 107px;
     left: -90px;
     font-size: 1.5em;
+    text-shadow: 1px 1px 1px silver;
 
     -webkit-transform: rotate(90deg);
     -moz-transform: rotate(90deg);
@@ -220,25 +204,44 @@ p.clearer{
 .c1>.sTitle{
     color: #e57373;
 }
+.c1 .pixGroup img:hover{
+  border-color: #e57373;
+}
 .c3 .pixTitle,
 .c2 .pixTitle,
 .c2>.sTitle{
     color: #ffb74d;
 }
+.c2 .pixGroup img:hover,
+.c3 .pixGroup img:hover{
+  border-color: #ffb74d;
+}
 .c3>.sTitle{
     color: #ffd54f;
+}
+.c3 .pixGroup img:hover{
+  border-color: #ffd54f;
 }
 .c4 .pixTitle,
 .c4>.sTitle{
     color: #81c784;
 }
+.c4 .pixGroup img:hover{
+  border-color: #81c784;
+}
 .c5 .pixTitle,
 .c5>.sTitle{
     color: #4dd0e1;
 }
+.c5 .pixGroup img:hover{
+  border-color: #4dd0e1;
+}
 .c6 .pixTitle,
 .c6>.sTitle{
     color: #7986cb;
+}
+.c6 .pixGroup img:hover{
+  border-color: #7986cb;
 }
 .c7 .pixTitle,
 .c7>.sTitle{
@@ -314,8 +317,6 @@ section.c7{
 section.c0{
     z-index: 50;
 }
-
-
 
 .c7-dots{
   z-index: 1500;
