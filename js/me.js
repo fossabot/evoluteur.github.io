@@ -363,7 +363,7 @@ var mediaList = {
 		{id:'underworld', title:'Underworld', url:'http://www.imdb.com/title/tt0320691'},
 	])
 }
-var pixMe=['olivier-giulieri','og-neige','og-closeup'];
+var pixMe=['og-neige','olivier-giulieri','og-closeup'];
 var pixMeIdx=0;
 
 function shuffle(arr){
