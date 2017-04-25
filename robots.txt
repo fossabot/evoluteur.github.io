@@ -4,3 +4,4 @@ Disallow: /js/
 Disallow: /pix/movies/ 
 Disallow: /pix/comics/ 
 Disallow: /pix/social/ 
+Disallow: /pix/demo/ 
