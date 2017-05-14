@@ -313,6 +313,11 @@ var mediaList = {
  	],
 	chakras: [
 		{	
+			id:'chakras', 
+			title: '7 Major Chakras',
+			url:'http://www.chakradesign.com/chakras.html'
+		},
+		{	
 			id:'ch7-silver2', 
 			title: 'Amethyst, Sodalite, Angelite, Amazonite, Amber, Carnelian, Red jasper',
 			url:'http://www.chakradesign.com'
