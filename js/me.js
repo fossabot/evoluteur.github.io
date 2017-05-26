@@ -319,22 +319,22 @@ var mediaList = {
 		},
 		{	
 			id:'ch7-silver2', 
-			title: 'Amethyst, Sodalite, Angelite, Amazonite, Amber, Carnelian, Red jasper',
+			title: '7 Chakras Charm: Amethyst, Sodalite, Angelite, Amazonite, Amber, Carnelian, Red jasper',
 			url:'http://www.chakradesign.com'
 		},
 		{
 			id:'cc7-smcjalc',
-			title: 'Clear Calcite, Lapis Lazuli, Angelite, Green Jade, Citrine, Peach Moonstone, Smoky Quartz',
+			title: '7 Chakras Charm: Clear Calcite, Lapis Lazuli, Angelite, Green Jade, Citrine, Peach Moonstone, Smoky Quartz',
 			url:'http://www.chakradesign.com/gallery.html'
 		},
 		{
 			id:'cc7-gold',
-			title: 'Aragonite, Denim Lapis, Angelite, Unakite, Dark Amber, Moonstone, Red Tiger Eye',
+			title: '7 Chakras Charm: Aragonite, Denim Lapis, Angelite, Unakite, Dark Amber, Moonstone, Red Tiger Eye',
 			url:'http://www.chakradesign.com/gallery.html'
 		},
 		{
 			id:'cc7-arwen',
-			title: 'Labradorite, Pietersite, Aquamarine, Chrysocolla, Amber, Peach Moonstone, Red Tiger Eye',
+			title: '7 Chakras Charm: Labradorite, Pietersite, Aquamarine, Chrysocolla, Amber, Peach Moonstone, Red Tiger Eye',
 			url:'http://www.chakradesign.com/gallery.html'
 		},
 	],
@@ -368,7 +368,7 @@ var mediaList = {
 		{id:'underworld', title:'Underworld', url:'http://www.imdb.com/title/tt0320691'},
 	])
 }
-var pixMe=['og-neige','olivier-giulieri','og-closeup'];
+var pixMe=['olivier-giulieri','og-neige','og-closeup',];
 var pixMeIdx=0;
 
 function shuffle(arr){

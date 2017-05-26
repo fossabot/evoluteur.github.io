@@ -30,7 +30,7 @@ a {
 a:hover {
   transition: all 0.5s ease;
   color: navy;
-  background-color: #ffd54f;
+  background-color: #FFF8E1;
   text-decoration: none;
 }
 
@@ -365,10 +365,10 @@ section.c0{
   width: 18px;
 }
 .c7-dots > a:hover > div{
-  top: -4px;
-  left: -4px;
-  height: 26px;
-  width: 26px;
+  top: -6px;
+  left: -6px;
+  height: 30px;
+  width: 30px;
 }
 
 .c7-dots-1>div{
