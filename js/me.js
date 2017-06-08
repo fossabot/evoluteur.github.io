@@ -12,14 +12,14 @@ var mediaList = {
 			url:'http://evoluteur.github.io/evolutility-ui-jquery/demo/index.html#comics/bubbles'
 		},
 		{
-			id:'many-charts', 
-			title: 'Evolutility Charts View',
-			url:'http://evoluteur.github.io/evolutility-ui-jquery/demo/index.html#comics/charts',
-		},
-		{
 			id:'colorpicker', 
 			title: 'Color Picker',
 			url:'http://evoluteur.github.io/colorpicker/',
+		},
+		{
+			id:'chord', 
+			title: 'Chord diagram',
+			url:'http://www.chakradesign.com/gemstones-d3-chord.html',
 		},
 	],
 	recipes: [
