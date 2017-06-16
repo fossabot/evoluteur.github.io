@@ -8,12 +8,12 @@ var mediaList = {
 		},
 		{
 			id:'many-bubbles', 
-			title: 'Evolutility Bubbles View',
+			title: 'Evolutility bubbles view',
 			url:'http://evoluteur.github.io/evolutility-ui-jquery/demo/index.html#comics/bubbles'
 		},
 		{
 			id:'colorpicker', 
-			title: 'Color Picker',
+			title: 'Color picker widget',
 			url:'http://evoluteur.github.io/colorpicker/',
 		},
 		{
