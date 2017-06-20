@@ -310,6 +310,7 @@ var mediaList = {
  		{id:'hokusai', title:'Hokusai', url:'https://www.google.com/search?q=hokusai&newwindow=1&source=lnms&tbm=isch'},
  		{id:'seurat', title:'Seurat', url:'https://www.google.com/search?&source=lnms&tbm=isch&q=seurat'},
  		{id:'moebius', title:'Moebius', url:'https://www.moebius.fr/'},
+ 		{id:'hiroshige', title:'Hiroshige', url:'https://en.wikipedia.org/wiki/Hiroshige'},
  	],
 	chakras: [
 		{	
