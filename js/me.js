@@ -4,22 +4,27 @@ var mediaList = {
 		{
 			id:'d3-table-cards', 
 			title: 'D3 Table/Cards',
-			url:'http://evoluteur.github.io/d3-table-cards'
+			url:'d3-table-cards'
 		},
 		{
 			id:'many-bubbles', 
 			title: 'Evolutility bubbles view',
-			url:'http://evoluteur.github.io/evolutility-ui-jquery/demo/index.html#comics/bubbles'
-		},
-		{
-			id:'colorpicker', 
-			title: 'Color picker widget',
-			url:'http://evoluteur.github.io/colorpicker/',
+			url:'evolutility-ui-jquery/demo/index.html#comics/bubbles'
 		},
 		{
 			id:'chord', 
 			title: 'Chord diagram',
 			url:'http://www.chakradesign.com/gemstones-d3-chord.html',
+		},
+		{
+			id:'structured-filter', 
+			title: 'Structured filter',
+			url:'structured-filter/',
+		},
+		{
+			id:'colorpicker', 
+			title: 'Color picker widget',
+			url:'colorpicker/',
 		},
 	],
 	recipes: [
