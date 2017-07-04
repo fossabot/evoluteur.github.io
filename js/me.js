@@ -22,6 +22,11 @@ var mediaList = {
 			url:'structured-filter/',
 		},
 		{
+			id:'madeleine-data-science', 
+			title: 'Madeleine data science',
+			url:'madeleine-data-science/',
+		},
+		{
 			id:'colorpicker', 
 			title: 'Color picker widget',
 			url:'colorpicker/',
