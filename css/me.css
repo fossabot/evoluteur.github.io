@@ -191,10 +191,10 @@ p.clearer{
 .sTitle{
     position: absolute;
     height: 30px;
-    width: 230px;
-    top: 107px;
-    left: -90px;
-    font-size: 1.5em;
+    width: 310px;
+    top: 142px;
+    left: -119px;
+    font-size: 2em;
     text-shadow: 1px 1px 1px silver;
 
     -webkit-transform: rotate(90deg);
@@ -266,7 +266,7 @@ p.clearer{
 */
 section{
   position: relative;
-  padding: 10px 10px 10px 90px;
+  padding: 10px 10px 10px 100px;
   border-left: solid 4px transparent;
   margin: 20px 45px 20px 5px;
 }
