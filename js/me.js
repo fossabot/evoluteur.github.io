@@ -325,8 +325,8 @@ var mediaList = {
 	chakras: [
 		{	
 			id:'chakras', 
-			title: '7 Major Chakras',
-			url:'http://www.chakradesign.com/chakras.html'
+			title: 'Oneness Meditation',
+			url:'https://www.meetup.com/find/events/?allMeetups=false&keywords=oneness'
 		},
 		{	
 			id:'ch7-silver2', 
@@ -419,7 +419,7 @@ function mosaic(id, more){
 	}else{
 		more= more ? 1 : 0;
 	}
-	var preview=(id==='movies' || id==='comics')?6:10,
+	var preview=(id==='movies' || id==='comics')?9:10,
 	 	ext=id==='code'?'.gif':'.jpg',
 		arrList=mediaList[id],
 		ml = more ? 24 : arrList.length,
@@ -467,7 +467,7 @@ function linkMore(id, preview){
 function setMosaic(id){
 	document.getElementById(id+'2').innerHTML = mosaic(id);
 }
-function setMobMosaic(id){
+function setMosaicNoLinks(id){
 	var ext=id==='code'?'.gif':'.jpg',
 		arrList=mediaList[id].slice(0,5),
 		holder=document.getElementById(id+'2'),
@@ -479,9 +479,9 @@ function setMobMosaic(id){
 		holder.appendChild(p);
 	});
 }
-function setPage(){
+function setupPage(){
 	['code','comics','comics_us','recipes','movies','fractals','art','chakras']
-		.forEach(isMobile()?setMobMosaic:setMosaic);
+		.forEach(isMobile()?setMosaicNoLinks:setMosaic);
 }
 
 function isMobile(){
