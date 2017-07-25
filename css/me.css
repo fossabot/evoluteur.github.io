@@ -203,6 +203,12 @@ p.clearer{
     -o-transform: rotate(90deg);
     filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
 }
+span.sTitle{
+  width: 230px;
+  top: 107px;
+  left: -90px;
+  font-size: 1.5em;
+}
 
 .c1 .pixTitle,
 .c1>.sTitle{
