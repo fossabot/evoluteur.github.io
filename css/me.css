@@ -33,7 +33,10 @@ a:hover {
   background-color: #FFF8E1;
   text-decoration: none;
 }
-
+footer{
+  color: silver;
+  margin: 10px 20px;
+}
 .helloworld{
   padding: 20px 0;
   min-width: 600px;

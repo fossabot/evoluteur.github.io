@@ -233,7 +233,7 @@ var mediaList = {
 		{
 			id: "pandamonia1",
 			title: "Pandamonia",
-			url: "http://www.bedetheque.com/serie-27333-BD-Pandamonia.html"
+			url: "https://www.bdgest.com/preview-854-BD-pandamonia-chaos-bestial.html"
 		},
 		{
 			id: "travis1",
