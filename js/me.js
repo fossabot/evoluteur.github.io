@@ -24,7 +24,7 @@ var mediaList = {
 		{
 			id:'madeleine-data-science', 
 			title: 'Madeleine data science',
-			url:'madeleine-data-science/',
+			url:'madeleinology/',
 		},
 		{
 			id:'colorpicker', 
