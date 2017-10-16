@@ -309,7 +309,7 @@ var mediaList = {
 		},
 	]),
 	fractals: [
-		{id:'mandelbrot-1', title:'Mandelbrot set', url:'https://en.wikipedia.org/wiki/Benoit_Mandelbrot#/media/File:Mandel_zoom_08_satellite_antenna.jpg'},
+		{id:'mandelbrot-1', title:'Mandelbrot set ("the thumbprint of God")', url:'https://en.wikipedia.org/wiki/Benoit_Mandelbrot#/media/File:Mandel_zoom_08_satellite_antenna.jpg'},
 		{id:'mandelbrot-2', title:'Mandelbrot set', url:'https://en.wikipedia.org/wiki/Benoit_Mandelbrot#/media/File:Newton-lplane-Mandelbrot.jpg'},
 		{id:'mandelbrot_one_island', title:'Julia "island"', url:'https://en.wikipedia.org/wiki/Mandelbrot_set#/media/File:Mandel_zoom_15_one_island.jpg'},
 		{id:'snowflake', title:'Snowflake', url:'http://gizmodo.com/this-physicists-designer-snowflakes-are-dazzling-1748893157'},
