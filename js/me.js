@@ -321,6 +321,7 @@ var mediaList = {
  		{id:'seurat', title:'Seurat', url:'https://www.google.com/search?&source=lnms&tbm=isch&q=seurat'},
  		{id:'moebius', title:'Moebius', url:'https://www.moebius.fr/'},
  		{id:'hiroshige', title:'Hiroshige', url:'https://en.wikipedia.org/wiki/Hiroshige'},
+ 		{id:'klimt', title:'Klimt', url:'https://www.google.com/search?tbm=isch&q=klimt'},
  	],
 	chakras: [
 		{	

@@ -37,6 +37,9 @@ footer{
   color: silver;
   margin: 10px 20px;
 }
+.grey{
+  color: silver;
+}
 .helloworld{
   padding: 20px 0;
   min-width: 600px;
