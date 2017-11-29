@@ -359,7 +359,6 @@ var mediaList = {
 		{id:'star-wars', title:'Star Wars', url:'http://www.imdb.com/title/tt1185834/'},
 		{id:'avatar', title:'Avatar', url:'http://www.imdb.com/title/tt0499549/'},
 		{id:'dune', title:'Dune', url:'http://www.imdb.com/title/tt0087182/'},
-		{id:'man', title:'The Man from Earth', url:'http://www.imdb.com/title/tt0756683'},
 		{id:'kpax', title:'K-PAX', url:'http://www.imdb.com/title/tt0272152/'},
 		{id:'inception', title:'Inception', url:'http://www.imdb.com/title/tt1375666/'},
 		{id:'stargate', title:'Star Gate', url:'http://www.imdb.com/title/tt0111282/'},
@@ -367,9 +366,9 @@ var mediaList = {
 		{id:'guardian-galaxy', title:'Guardian of the Galaxy', url:'http://www.imdb.com/title/tt2015381/'},
 		{id:'xmen', title:'X-Men', url:'http://www.imdb.com/title/tt0120903/'},
 		{id:'johncarter', title:'John Carter', url:'http://www.imdb.com/title/tt0401729/'}, 
+		{id:'tron', title:'TRON', url:'http://www.imdb.com/title/tt0084827/'}, 
 		{id:'ghost-in-shell', title:'Ghost in the Shell', url:'http://www.imdb.com/title/tt0113568/'},
 		{id:'akira', title:'Akira', url:'http://www.imdb.com/title/tt0094625/'},
-		{id:'valerian', title:'Valerian and the City of a Thousand Planets', url:'http://www.imdb.com/title/tt2239822'},
 		{id:'ironman', title:'Iron Man', url:'http://www.imdb.com/title/tt0371746/'},
 		{id:'island', title:'The Island', url:'http://www.imdb.com/title/tt0399201'},
 		{id:'dejavu', title:'Deja Vu', url:'http://www.imdb.com/title/tt0453467'},
@@ -377,6 +376,8 @@ var mediaList = {
 		{id:'wall-e', title:'WALL·E', url:'http://www.imdb.com/title/tt0910970'},
 		{id:'riddick', title:'The Chronicles of Riddick', url:'http://www.imdb.com/title/tt0296572'},
 		{id:'underworld', title:'Underworld', url:'http://www.imdb.com/title/tt0320691'},
+		{id:'man-earth', title:'The Man from Earth', url:'http://www.imdb.com/title/tt0756683/'},
+		{id:'limitless', title:'Limitless', url:'http://www.imdb.com/title/tt1219289/'},
 	])
 }
 var pixMe=['olivier-giulieri','og-neige','og-closeup',];
