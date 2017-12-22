@@ -308,6 +308,43 @@ var mediaList = {
 			url: "https://smile.amazon.com/East-West-Promise-Jonathan-Hickman/dp/1607067706/",
 		},
 	]),
+	comics_euro_us: shuffle([
+		{
+			id: "edena",
+			title: "Edena",
+			url: "https://smile.amazon.com/Moebius-Library-World-Edena/dp/1506702163"
+		},
+		{
+			id: "incal",
+			title: "The Incal",
+			url: "https://smile.amazon.com/Incal-Alejandro-Jodorowsky/dp/1594650934"
+		},/*
+		{
+			id: "incalb",
+			title: "Before The Incal",
+			url: "https://smile.amazon.com/Before-Incal-Alejandro-Jodorowsky/dp/159465901X"
+		},*/
+		{
+			id: "4power",
+			title: "The Fourth Power",
+			url: "https://smile.amazon.com/Fourth-Power-Oversized-Deluxe/dp/1594653011"
+		},
+		{
+			id: "birdtime",
+			title: "The Quest For The Time Bird",
+			url: "https://smile.amazon.com/Quest-Time-Bird-Serge-Tendre/dp/1782763627"
+		},
+		{
+			id: "lama",
+			title: "The White Lama",
+			url: "https://smile.amazon.com/White-Lama-Alexandro-Jodorowsky/dp/1594650802"
+		},
+		{
+			id: "imperfectfuture",
+			title: "Tales of an Imperfect Future",
+			url: "https://www.amazon.com/Tales-Imperfect-Future-Alfonso-Font/dp/1616554940"
+		},
+	]),
 	fractals: [
 		{id:'mandelbrot-1', title:'Mandelbrot set ("the thumbprint of God")', url:'https://en.wikipedia.org/wiki/Benoit_Mandelbrot#/media/File:Mandel_zoom_08_satellite_antenna.jpg'},
 		{id:'mandelbrot-2', title:'Mandelbrot set', url:'https://en.wikipedia.org/wiki/Benoit_Mandelbrot#/media/File:Newton-lplane-Mandelbrot.jpg'},
@@ -482,7 +519,7 @@ function setMosaicNoLinks(id){
 	});
 }
 function setupPage(){
-	['code','comics','comics_us','recipes','movies','fractals','art','chakras']
+	['code','comics','comics_us','comics_euro_us','recipes','movies','fractals','art','chakras']
 		.forEach(isMobile()?setMosaicNoLinks:setMosaic);
 }
 
