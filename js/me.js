@@ -352,14 +352,15 @@ var mediaList = {
 		{id:'snowflake', title:'Snowflake', url:'http://gizmodo.com/this-physicists-designer-snowflakes-are-dazzling-1748893157'},
 	],
  	art: [
- 		{id:'monet', title:'Monet', url:'https://www.google.com/search?tbm=isch&q=claude+monet+impressionism'},
- 		{id:'seurat', title:'Seurat', url:'https://www.google.com/search?&source=lnms&tbm=isch&q=seurat'},
- 		{id:'vangogh', title:'Van Gogh', url:'https://www.google.com/search?q=van+gogh&newwindow=1&source=lnms&tbm=isch'},
- 		{id:'hokusai', title:'Hokusai', url:'https://www.google.com/search?q=hokusai&newwindow=1&source=lnms&tbm=isch'},
- 		{id:'hiroshige', title:'Hiroshige', url:'https://en.wikipedia.org/wiki/Hiroshige'},
+ 		{id:'monet', title:'Claude Monet', url:'https://www.google.com/search?tbm=isch&q=claude+monet+impressionism'},
+ 		{id:'seurat', title:'Georges Seurat', url:'https://www.google.com/search?&source=lnms&tbm=isch&q=seurat'},
+ 		{id:'vangogh', title:'Vincent Van Gogh', url:'https://www.google.com/search?q=van+gogh&newwindow=1&source=lnms&tbm=isch'},
+ 		{id:'hokusai', title:'Katsushika Hokusai', url:'https://www.google.com/search?q=hokusai&newwindow=1&source=lnms&tbm=isch'},
+ 		{id:'jung', title:'Carl Gustav Jung', url:'https://www.google.com/search?tbm=isch&q=jung+red+book'},
+ 		{id:'hiroshige', title:'Utagawa Hiroshige', url:'https://en.wikipedia.org/wiki/Hiroshige'},
  		{id:'moebius', title:'Moebius', url:'https://www.moebius.fr/'},
- 		{id:'klimt', title:'Klimt', url:'https://www.google.com/search?tbm=isch&q=klimt'},
- 		{id:'matisse', title:'Matisse', url:'https://www.google.com/search?q=matisse&tbm=isch'},
+ 		{id:'klimt', title:'Gustav Klimt', url:'https://www.google.com/search?tbm=isch&q=klimt'},
+ 		{id:'matisse', title:'Henri Matisse', url:'https://www.google.com/search?q=matisse&tbm=isch'},
  	],
 	chakras: [
 		{	
@@ -375,12 +376,12 @@ var mediaList = {
 		{
 			id:'cc7-smcjalc',
 			title: '7 Chakras Charm: Clear Calcite, Lapis Lazuli, Angelite, Green Jade, Citrine, Peach Moonstone, Smoky Quartz',
-			url:'http://www.chakradesign.com/gallery.html'
+			url:'http://www.chakradesign.com/charms.html'
 		},
 		{
 			id:'cc7-gold',
 			title: '7 Chakras Charm: Aragonite, Denim Lapis, Angelite, Unakite, Dark Amber, Moonstone, Red Tiger Eye',
-			url:'http://www.chakradesign.com/gallery.html'
+			url:'http://www.chakradesign.com/charms.html'
 		},
 		{
 			id:'cc7-arwen',
