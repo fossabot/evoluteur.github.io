@@ -34,6 +34,7 @@ a:hover {
   text-decoration: none;
 }
 footer{
+  font-size: .8em;
   color: silver;
   margin: 10px 20px;
 }
