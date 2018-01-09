@@ -409,15 +409,18 @@ var mediaList = {
 		{id:'tron', title:'TRON', url:'http://www.imdb.com/title/tt0084827/'}, 
 		{id:'ghost-in-shell', title:'Ghost in the Shell', url:'http://www.imdb.com/title/tt0113568/'},
 		{id:'akira', title:'Akira', url:'http://www.imdb.com/title/tt0094625/'},
+		{id:'dr-strange', title:'Doctor Strange', url:'http://www.imdb.com/title/tt1211837/'},
 		{id:'ironman', title:'Iron Man', url:'http://www.imdb.com/title/tt0371746/'},
 		{id:'island', title:'The Island', url:'http://www.imdb.com/title/tt0399201'},
 		{id:'dejavu', title:'Deja Vu', url:'http://www.imdb.com/title/tt0453467'},
+		{id:'minority-report', title:'Minority Report', url:'http://www.imdb.com/title/tt0181689/'},
 		{id:'i-legend', title:'I Am Legend', url:'http://www.imdb.com/title/tt0480249'},
 		{id:'wall-e', title:'WALL·E', url:'http://www.imdb.com/title/tt0910970'},
 		{id:'riddick', title:'The Chronicles of Riddick', url:'http://www.imdb.com/title/tt0296572'},
 		{id:'underworld', title:'Underworld', url:'http://www.imdb.com/title/tt0320691'},
 		{id:'man-earth', title:'The Man from Earth', url:'http://www.imdb.com/title/tt0756683/'},
 		{id:'limitless', title:'Limitless', url:'http://www.imdb.com/title/tt1219289/'},
+		{id:'cloud-atlas', title:'I, Cloud Atlas', url:'http://www.imdb.com/title/tt1371111/'},
 	])
 }
 var pixMe=['olivier-giulieri','og-neige','og-closeup',];
