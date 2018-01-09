@@ -420,7 +420,7 @@ var mediaList = {
 		{id:'underworld', title:'Underworld', url:'http://www.imdb.com/title/tt0320691'},
 		{id:'man-earth', title:'The Man from Earth', url:'http://www.imdb.com/title/tt0756683/'},
 		{id:'limitless', title:'Limitless', url:'http://www.imdb.com/title/tt1219289/'},
-		{id:'cloud-atlas', title:'I, Cloud Atlas', url:'http://www.imdb.com/title/tt1371111/'},
+		{id:'cloud-atlas', title:'Cloud Atlas', url:'http://www.imdb.com/title/tt1371111/'},
 	])
 }
 var pixMe=['olivier-giulieri','og-neige','og-closeup',];
@@ -466,7 +466,7 @@ function mosaic(id, more){
 	var preview=(id==='movies' || id==='comics')?9:10,
 	 	ext=id==='code'?'.gif':'.jpg',
 		arrList=mediaList[id],
-		ml = more ? 24 : arrList.length,
+		ml = (id==='comics' && more) ? 24 : arrList.length,
 		arrListP = more ? arrList.slice(preview, ml) : arrList.slice(0, preview),
 		pixPath = pixDir(id),
 		imageLink = function (m){
