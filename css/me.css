@@ -21,18 +21,18 @@ body {
 strong{
   font-family:'Raleway-Bold';
 }
+
 a {
-  transition: all 0.5s ease;
-  color: #39C;
-  background-color: white;
-  font-weight: 400;
+  text-decoration: none;
+  background-color: rgba(187,239,253,0.3);
+  border-bottom: 1px solid rgba(0,0,0,0.2);
+  color: #1a1a1a;
 }
 a:hover {
-  transition: all 0.5s ease;
-  color: navy;
-  background-color: #FFF8E1;
-  text-decoration: none;
+  background-color: #bbeffd;
+  border-bottom-color: #1a1a1a;
 }
+
 footer{
   font-size: .8em;
   color: silver;
@@ -122,6 +122,7 @@ p.clearer{
 }
 .sociallinks a {
   background-color: white;
+  border: 0;
 }
 .avatar-holder{
   float:right;
@@ -286,6 +287,8 @@ section{
   padding: 10px 10px 10px 100px;
   border-left: solid 8px transparent;
   margin: 20px 45px 45px 5px;
+
+  line-height: 30px;
 }
 
 @media only screen and (max-width: 480px) {
@@ -358,6 +361,7 @@ section.c0{
   margin: 10px;
   background-color: transparent !important;
   text-decoration: none;
+  border:none;
 }
 .c7-dots > a >.sTitle{
   z-index: 10;
