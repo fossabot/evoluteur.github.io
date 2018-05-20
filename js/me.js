@@ -25,12 +25,12 @@ var mediaList = {
 			id:'madeleine-data-science', 
 			title: 'Madeleine data science',
 			url:'http://evoluteur.github.io/madeleinology/',
-		},
+		},/*
 		{
 			id:'colorpicker', 
 			title: 'Color picker widget',
 			url:'http://evoluteur.github.io/colorpicker/',
-		},
+		},*/
 	],
 	recipes: [
 		{
