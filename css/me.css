@@ -16,7 +16,8 @@ body {
   font-size: 16pt;
   font-family: 'Raleway-Regular', "Century Gothic", arial;
   font-weight: 300;
-  /*background-image: url("../pix/bg.gif");*/
+  /**/
+  background-image: url("../pix/bg.gif");
 }
 strong{
   font-family:'Raleway-Bold';
