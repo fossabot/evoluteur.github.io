@@ -4,12 +4,12 @@ var mediaList = {
 		{
 			id:'d3-table-cards', 
 			title: 'D3 Table/Cards',
-			url:'d3-table-cards'
+			url:'http://evoluteur.github.io/d3-table-cards'
 		},
 		{
 			id:'many-bubbles', 
 			title: 'Evolutility bubbles view',
-			url:'evolutility-ui-jquery/demo/index.html#comics/bubbles'
+			url:'http://evoluteur.github.io/evolutility-ui-jquery/demo/index.html#comics/bubbles'
 		},
 		{
 			id:'chord', 
@@ -19,17 +19,17 @@ var mediaList = {
 		{
 			id:'structured-filter', 
 			title: 'Structured filter',
-			url:'structured-filter/',
+			url:'http://evoluteur.github.io/structured-filter/',
 		},
 		{
 			id:'madeleine-data-science', 
 			title: 'Madeleine data science',
-			url:'madeleinology/',
+			url:'http://evoluteur.github.io/madeleinology/',
 		},
 		{
 			id:'colorpicker', 
 			title: 'Color picker widget',
-			url:'colorpicker/',
+			url:'http://evoluteur.github.io/colorpicker/',
 		},
 	],
 	recipes: [
