@@ -173,6 +173,7 @@ p.clearer{
 }
 .pixTitleHolder > a{
   background-color: transparent !important;
+  border-bottom: none;
 }
 .pixTitleHolder .pix-title{
   text-align: center;
