@@ -22,6 +22,11 @@ var mediaList = {
 			url:'http://evoluteur.github.io/structured-filter/',
 		},
 		{
+			id:'d3-dual-range-slider', 
+			title: 'D3 dual range slider',
+			url:'http://evoluteur.github.io/d3-dual-range-slider/',
+		},
+		{
 			id:'madeleine-data-science', 
 			title: 'Madeleine data science',
 			url:'http://evoluteur.github.io/madeleinology/',
