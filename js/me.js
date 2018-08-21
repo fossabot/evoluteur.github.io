@@ -428,7 +428,7 @@ var mediaList = {
 		{id:'cloud-atlas', title:'Cloud Atlas', url:'http://www.imdb.com/title/tt1371111/'},
 	])
 }
-var pixMe=['olivier-giulieri','og-neige','og-2018','og-closeup',];
+var pixMe=['olivier-giulieri','og-neige','og-2018','og-closeup','og-infant',];
 var pixMeIdx=0;
 
 function shuffle(arr){
