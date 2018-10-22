@@ -506,7 +506,7 @@ function mosaic(id, more){
 	if(more===1 && (id==='comics')){
 		mm.push(linkMore(id+'_2', 0));
 	}
-	mm.push('<div class="clearer"/>');
+	mm.push('<div class="clearer"></div>');
 	return mm.join('');
 }
 function linkMore(id, preview){
