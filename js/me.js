@@ -428,6 +428,10 @@ var mediaList = {
 		{id:'cloud-atlas', title:'Cloud Atlas', url:'https://www.imdb.com/title/tt1371111/'},
 		{id:'valerian', title:'Valerian and the City of a Thousand Planets', url:'https://www.imdb.com/title/tt2239822/'},
 		{id:'wwoman', title:'Wonder Woman', url:'https://www.imdb.com/title/tt0451279/'},
+		{id:'butterfly', title:'The Butterfly Effect', url:'https://www.imdb.com/title/tt0289879/'},
+		{id:'sense8', title:'Sense8', url:'https://www.imdb.com/title/tt2431438/'},
+		{id:'serenity', title:'Serenity', url:'https://www.imdb.com/title/tt0379786/'},
+		{id:'giver', title:'The Giver', url:'https://www.imdb.com/title/tt0435651/'},
 	])
 }
 var pixMe=['olivier-giulieri','og-neige','og-2018','og-closeup','og-infant',];
