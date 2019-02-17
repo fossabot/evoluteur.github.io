@@ -29,7 +29,7 @@ var mediaList = {
 		{
 			id:'madeleine-data-science', 
 			title: 'Madeleine data science',
-			url:'http://evoluteur.github.io/madeleinology/',
+			url:'http://evoluteur.github.io/madeleinology/ingredients-top4.html',
 		},/*
 		{
 			id:'colorpicker', 
