@@ -432,6 +432,7 @@ var mediaList = {
 		{id:'sense8', title:'Sense8', url:'https://www.imdb.com/title/tt2431438/'},
 		{id:'serenity', title:'Serenity', url:'https://www.imdb.com/title/tt0379786/'},
 		{id:'giver', title:'The Giver', url:'https://www.imdb.com/title/tt0435651/'},
+		{id:'alita', title:'Alita: Battle Angel', url:'https://www.imdb.com/title/tt0437086/'},
 	])
 }
 var pixMe=['olivier-giulieri','og-neige','og-2018','og-closeup','og-infant',];
