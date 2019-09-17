@@ -435,7 +435,7 @@ var mediaList = {
 		{id:'alita', title:'Alita: Battle Angel', url:'https://www.imdb.com/title/tt0437086/'},
 	])
 }
-var pixMe=['olivier-giulieri','og-neige','og-2018','og-closeup','og-infant',];
+var pixMe=['og-2019','og-2017','og-neige','og-2018','og-closeup','og-infant',];
 var pixMeIdx=0;
 
 function shuffle(arr){
