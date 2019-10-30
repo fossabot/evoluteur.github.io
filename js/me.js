@@ -433,6 +433,12 @@ var mediaList = {
 		{id:'serenity', title:'Serenity', url:'https://www.imdb.com/title/tt0379786/'},
 		{id:'giver', title:'The Giver', url:'https://www.imdb.com/title/tt0435651/'},
 		{id:'alita', title:'Alita: Battle Angel', url:'https://www.imdb.com/title/tt0437086/'},
+		{id:'wargames', title:'WarGames', url:'https://www.imdb.com/title/tt0086567/'},
+		{id:'alien', title:'Alien', url:'https://www.imdb.com/title/tt0078748/'},
+		{id:'jupiter', title:'Jupiter Ascending', url:'https://www.imdb.com/title/tt1617661/'},
+		{id:'avalon', title:'Avalon', url:'https://www.imdb.com/title/tt0267287/'},
+		{id:'rp1', title:'Ready Player One', url:'https://www.imdb.com/title/tt1677720/'},
+		{id:'existenz', title:'Existenz', url:'https://www.imdb.com/title/tt0120907/'},
 	])
 }
 var pixMe=['og-2019','og-2017','og-neige','og-2018','og-closeup','og-infant',];
