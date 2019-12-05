@@ -375,9 +375,10 @@ var mediaList = {
 		},
 		{	
 			id:'ch7-silver2', 
-			title: '7 Chakras Charm: Amethyst, Sodalite, Angelite, Amazonite, Amber, Carnelian, Red jasper',
+			title: '7 Chakras Charm',
+			//title: '7 Chakras Charm: Amethyst, Sodalite, Angelite, Amazonite, Amber, Carnelian, Red jasper',
 			url:'http://www.chakradesign.com'
-		},
+		},/*
 		{
 			id:'cc7-smcjalc',
 			title: '7 Chakras Charm: Clear Calcite, Lapis Lazuli, Angelite, Green Jade, Citrine, Peach Moonstone, Smoky Quartz',
@@ -392,7 +393,7 @@ var mediaList = {
 			id:'cc7-arwen',
 			title: '7 Chakras Charm: Labradorite, Pietersite, Aquamarine, Chrysocolla, Amber, Peach Moonstone, Red Tiger Eye',
 			url:'http://www.chakradesign.com/gallery.html'
-		},
+		},*/
 	],
 	movies: shuffle([
 		{id:'matrix', title:'Matrix', url:'https://www.imdb.com/title/tt0133093/'},
