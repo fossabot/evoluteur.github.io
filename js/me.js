@@ -442,7 +442,7 @@ var mediaList = {
 		{id:'existenz', title:'Existenz', url:'https://www.imdb.com/title/tt0120907/'},
 	])
 }
-var pixMe=['og-2019','og-2017','og-neige','og-2018','og-closeup','og-infant',];
+var pixMe=['og-handlebar','og-2019','og-2017','og-neige','og-2018','og-closeup','og-infant',];
 var pixMeIdx=0;
 
 function shuffle(arr){
