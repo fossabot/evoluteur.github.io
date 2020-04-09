@@ -53,6 +53,11 @@ var mediaList = {
 			title: 'Madeleines',
 			url:'recipes/desserts/madeleines.html' 
 		},
+		{
+			id:'canneles', 
+			title: 'Cannelés',
+			url:'recipes/desserts/canneles.html' 
+		},
 	],
 	comics: shuffle([
 		{
