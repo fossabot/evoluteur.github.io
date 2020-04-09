@@ -490,3 +490,10 @@ section.c0{
   padding: 20px;
   margin: 20px 45px 10px 5px
 }
+
+.clearer{
+  clear: both;
+  height: 0;
+  width: 0;
+  display: block;
+}
