@@ -1,3 +1,7 @@
+/*
+ 	https://evoluteur.github.io/
+ 	(c) 2020 Olivier Giulieri 
+ */
 
 var mediaList = {
 	code: [
@@ -383,22 +387,7 @@ var mediaList = {
 			title: '7 Chakras Charm',
 			//title: '7 Chakras Charm: Amethyst, Sodalite, Angelite, Amazonite, Amber, Carnelian, Red jasper',
 			url:'http://www.chakradesign.com'
-		},/*
-		{
-			id:'cc7-smcjalc',
-			title: '7 Chakras Charm: Clear Calcite, Lapis Lazuli, Angelite, Green Jade, Citrine, Peach Moonstone, Smoky Quartz',
-			url:'http://www.chakradesign.com/charms.html'
 		},
-		{
-			id:'cc7-gold',
-			title: '7 Chakras Charm: Aragonite, Denim Lapis, Angelite, Unakite, Dark Amber, Moonstone, Red Tiger Eye',
-			url:'http://www.chakradesign.com/charms.html'
-		},
-		{
-			id:'cc7-arwen',
-			title: '7 Chakras Charm: Labradorite, Pietersite, Aquamarine, Chrysocolla, Amber, Peach Moonstone, Red Tiger Eye',
-			url:'http://www.chakradesign.com/gallery.html'
-		},*/
 	],
 	movies: shuffle([
 		{id:'matrix', title:'Matrix', url:'https://www.imdb.com/title/tt0133093/'},
