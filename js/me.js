@@ -34,6 +34,11 @@ var mediaList = {
 			id:'madeleine-data-science', 
 			title: 'Madeleine data science',
 			url:'http://evoluteur.github.io/madeleinology/ingredients-top4.html',
+		},
+		{
+			id:'motivational-numerology', 
+			title: 'Motivational Numerology',
+			url:'https://evoluteur.github.io/motivational-numerology/',
 		},/*
 		{
 			id:'colorpicker', 
