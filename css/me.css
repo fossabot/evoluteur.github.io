@@ -297,7 +297,7 @@ span.sTitle{
 */
 section{
   position: relative;
-  padding: 10px 10px 10px 100px;
+  padding: 10px 10px 10px 120px;
   border-left: solid 8px transparent;
   margin: 20px 45px 45px 5px;
 
@@ -500,4 +500,66 @@ section.c0{
   height: 0;
   width: 0;
   display: block;
+}
+.egg {
+  padding: 50px 100px;
+}
+#you{
+  border-radius: 50%;
+  
+  color: white;
+  background-color:  #f9a825;
+
+  display: block;
+  width: 590px;
+  height: 820px;
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+
+  margin: 20px;
+  padding: 110px 50px 70px 120px; 
+}
+#you .pixTitle{
+  background-color: #ef5350;
+  color: white;
+}
+#you a:hover {
+  background-color: #d38b8b;
+}
+#you > div {
+  margin: 30px 0 10px;
+}
+.ml0{
+  max-width: 570px;
+}
+.ml30{
+  margin-left: 30px !important;
+  max-width: 490px;
+}
+.ml60{
+  margin-left: 60px !important;
+  max-width: 480px;
+}
+.num {
+  color: white;
+  padding: 5px;
+  display: inline-block;
+  border-radius: 50%;
+    border: 4px solid grey;
+    background-color: #9c27b0;
+    height: 24px;
+    width: 24px;
+    text-align: center;
+}
+.c7 {
+  border-color: #9c27b0;
+}
+.c7 > span {
+  position: relative;
+  top: -4px;
+  left: 0;
+}
+
+#comics_euro_us2{
+  max-width: 500px;
+  margin: 20px 10px;
 }

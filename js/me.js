@@ -332,12 +332,12 @@ var mediaList = {
 			id: "incal",
 			title: "The Incal",
 			url: "https://smile.amazon.com/Incal-Alejandro-Jodorowsky/dp/1594650934"
-		},/*
+		},
 		{
 			id: "incalb",
 			title: "Before The Incal",
 			url: "https://smile.amazon.com/Before-Incal-Alejandro-Jodorowsky/dp/159465901X"
-		},*/
+		},
 		{
 			id: "4power",
 			title: "The Fourth Power",
@@ -352,12 +352,12 @@ var mediaList = {
 			id: "lama",
 			title: "The White Lama",
 			url: "https://smile.amazon.com/White-Lama-Alexandro-Jodorowsky/dp/1594650802"
-		},
+		},/*
 		{
 			id: "imperfectfuture",
 			title: "Tales of an Imperfect Future",
 			url: "https://www.amazon.com/Tales-Imperfect-Future-Alfonso-Font/dp/1616554940"
-		},
+		},*/
 	]),
 	fractals: [
 		{id:'mandelbrot-1', title:'Mandelbrot set ("the thumbprint of God")', url:'https://en.wikipedia.org/wiki/Benoit_Mandelbrot#/media/File:Mandel_zoom_08_satellite_antenna.jpg'},
