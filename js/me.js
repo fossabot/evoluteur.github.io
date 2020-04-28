@@ -16,6 +16,11 @@ var mediaList = {
 			url:'http://evoluteur.github.io/evolutility-ui-jquery/demo/index.html#comics/bubbles'
 		},
 		{
+			id:'motivational-numerology', 
+			title: 'Motivational Numerology',
+			url:'https://evoluteur.github.io/motivational-numerology/',
+		},
+		{
 			id:'chord', 
 			title: 'Chord diagram',
 			url:'http://www.chakradesign.com/gemstones-d3-chord.html',
@@ -34,11 +39,6 @@ var mediaList = {
 			id:'madeleine-data-science', 
 			title: 'Madeleine data science',
 			url:'http://evoluteur.github.io/madeleinology/ingredients-top4.html',
-		},
-		{
-			id:'motivational-numerology', 
-			title: 'Motivational Numerology',
-			url:'https://evoluteur.github.io/motivational-numerology/',
 		},/*
 		{
 			id:'colorpicker', 
@@ -375,17 +375,16 @@ var mediaList = {
  		{id:'seurat', title:'Georges Seurat', url:'https://www.google.com/search?&source=lnms&tbm=isch&q=seurat'},
  		{id:'vangogh', title:'Vincent Van Gogh', url:'https://www.google.com/search?q=van+gogh&newwindow=1&source=lnms&tbm=isch'},
  		{id:'hokusai', title:'Katsushika Hokusai', url:'https://www.google.com/search?q=hokusai&newwindow=1&source=lnms&tbm=isch'},
- 		{id:'jung', title:'Carl Gustav Jung', url:'https://www.google.com/search?tbm=isch&q=jung+red+book'},
+ 		{id:'jung', title:'Carl Jung', url:'https://www.google.com/search?tbm=isch&q=jung+red+book'},
  		{id:'hiroshige', title:'Utagawa Hiroshige', url:'https://en.wikipedia.org/wiki/Hiroshige'},
  		{id:'moebius', title:'Moebius', url:'https://www.moebius.fr/'},
  		{id:'klimt', title:'Gustav Klimt', url:'https://www.google.com/search?tbm=isch&q=klimt'},
- 		{id:'matisse', title:'Henri Matisse', url:'https://www.google.com/search?q=matisse&tbm=isch'},
  	],
 	chakras: [
 		{	
 			id:'chakras', 
-			title: 'Oneness Meditation',
-			url:'https://www.meetup.com/find/events/?allMeetups=false&keywords=oneness'
+			title: 'Meditation',
+			url:'https://www.meetup.com/find/events/?allMeetups=false&keywords=meditation'
 		},
 		{	
 			id:'ch7-silver2', 

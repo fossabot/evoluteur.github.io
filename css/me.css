@@ -121,9 +121,9 @@ p.clearer{
   -o-transition: .2s ease-in-out;
 } 
 .sociallinks img {
-  margin: 7px 6px 0;
-  height:32px;
-  width:32px;
+  margin: 7px 7px 0;
+  height: 32px;
+  width: 32px;
   opacity: .4;
   -webkit-filter: grayscale(100%);
   -webkit-transition: .3s ease-in-out;
@@ -161,11 +161,11 @@ p.clearer{
 }
 @media only screen and (max-width: 480px) {
   .avatar-holder{
-    width:100%;
+    width: 100%;
   }
   .avatar{
-    padding:0;
-    margin:0;
+    padding: 0;
+    margin: 0;
   }
 }
 @media only screen and (max-width: 700px) {
@@ -194,7 +194,7 @@ p.clearer{
     z-index: 700;
     position: absolute;
     left: 20px;
-    top:-7px;
+    top:-10px;
     font-family:'Raleway-Bold';
     padding: 0 5px;
     display: none;
