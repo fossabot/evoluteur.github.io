@@ -57,13 +57,11 @@ footer:hover{
   padding: 20px 0;
   min-width: 600px;
 }
-
-
 .clearer{
   clear: both;
 }
 p.clearer{
-  padding-top:25px;
+  padding-top: 25px;
 }
 
 .pixShadow,
@@ -292,9 +290,6 @@ span.sTitle{
   padding: 0 10px 10px 20px;
 }
 
-/*
-  clear: both;
-*/
 section{
   position: relative;
   padding: 10px 10px 10px 120px;
@@ -494,28 +489,24 @@ section.c0{
   padding: 20px;
   margin: 20px 45px 10px 5px
 }
-
 .clearer{
   clear: both;
   height: 0;
   width: 0;
   display: block;
 }
-.egg {
+#egg {
   width: 800px;
   padding: 50px 100px;
 }
 #you{
   border-radius: 50%;
-  
   color: white;
-  background-color:  #f9a825;
-
+  background-color: #f9a825;
   display: block;
   width: 590px;
   height: 820px;
   border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
-
   margin: 20px;
   padding: 110px 50px 70px 120px; 
 }
@@ -610,18 +601,36 @@ section.c0{
   width: 120px;
   background-color: #ffb74d;
   line-height: 40px;
-} 
+}
+
 @media only screen and (max-width: 750px){ 
   .hello {
     display: none !important;
   }
   section {
-    padding-left: 80px !important;
+    padding-left: 50px !important;
+    border-left-width: 6px;
+  }
+  .me{
+    border-radius: 0;
+    width: auto;
+    height: auto;
+    padding: 0;
+  }
+  .me > div {
+    margin: 10px;
+  }
+  .sTitle{
+    font-size: 1.2em;
+    left: -140px;
   }
 }
 @media only screen and (max-width: 900px){ 
   .japancircle {
     display: none !important;
+  }
+  #egg {
+    display: none;
   }
 }
 @media only screen and (max-width: 1000px){ 

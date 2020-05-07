@@ -442,7 +442,11 @@ var mediaList = {
 }
 var pixMe=['og-handlebar','og-2019','og-2017','og-neige','og-2018','og-closeup','og-infant',];
 var pixMeIdx=0;
+var isMobile = typeof window.orientation !== 'undefined';
 
+function e(id){
+	return document.getElementById(id);
+}
 function shuffle(arr){
 	var ln = arr.length,
 		rnd = Math.floor(Math.random() * (ln));
@@ -450,7 +454,7 @@ function shuffle(arr){
 }
 
 function more(id, min){
-	var elem=document.getElementById(id+'_x');
+	var elem=e(id+'_x');
 	elem.className='';
 	elem.innerHTML=mosaic(id, true)
 }
@@ -511,7 +515,6 @@ function mosaic(id, more){
 		arrListP = more ? arrList.slice(preview, ml) : arrList.slice(0, preview);
 	}
 	mm = arrListP.map(imageLink);
-
 	if(arrList.length>preview & !more){
 		mm.push(linkMore(id, preview));
 	}
@@ -526,12 +529,12 @@ function linkMore(id, preview){
 }
 
 function setMosaic(id){
-	document.getElementById(id+'2').innerHTML = mosaic(id);
+	e(id+'2').innerHTML = mosaic(id);
 }
 function setMosaicNoLinks(id){
 	var ext=id==='code'?'.gif':'.jpg',
 		arrList=mediaList[id].slice(0,5),
-		holder=document.getElementById(id+'2'),
+		holder=e(id+'2'),
 		dir='pix/'+id+'/';
 
 	arrList.forEach(function(i){
@@ -541,10 +544,9 @@ function setMosaicNoLinks(id){
 	});
 }
 function setupPage(){
-	['code','comics','comics_us','comics_euro_us','recipes','movies','fractals','art','chakras']
-		.forEach(isMobile()?setMosaicNoLinks:setMosaic);
-}
-
-function isMobile(){
-	return typeof window.orientation !== 'undefined';
+	var pixAreas = ['code','comics','recipes','movies','fractals','art','chakras']
+	if(!isMobile){
+		pixAreas.push('comics_us', 'comics_euro_us')
+	}
+	pixAreas.forEach(isMobile?setMosaicNoLinks:setMosaic);
 }
