@@ -15,14 +15,12 @@
 body {
   margin: 0;
   padding: 0;
-  color: black;
+  color: #1a1a1a;
   background-color: white;
   font-size: 16pt;
   font-family: 'Raleway-Regular', "Century Gothic", arial;
   font-weight: 300;
-  /* 
   background-image: url("../pix/bg.gif");
-  */
 }
 strong{
   font-family:'Raleway-Bold';
@@ -77,7 +75,6 @@ p.clearer{
   box-shadow: 1px 2px 1px silver;
   transition: top 0.6s, left 0.6s;
 }
-
 
 .comicsPix img{
   height: 140px;
@@ -216,7 +213,7 @@ p.clearer{
     height: 30px;
     width: 310px;
     top: 142px;
-    left: -119px;
+    left: -125px;
     font-size: 2em;
     text-shadow: 1px 1px 1px silver;
 
@@ -281,10 +278,7 @@ span.sTitle{
     color: #ba68c8;
 }
 .c0 .pixTitle{
-    color: black;
-}
-.c8>.sTitle{
-    color: silver
+    color: #1a1a1a;
 }
 .c00{
   padding: 0 10px 10px 20px;
@@ -292,7 +286,7 @@ span.sTitle{
 
 section{
   position: relative;
-  padding: 10px 10px 10px 120px;
+  padding: 10px 20px 10px 100px;
   border-left: solid 28px transparent;
   margin: 20px 45px 45px 5px;
 
@@ -308,23 +302,14 @@ section{
     padding: 0 0 10px 45px;
     margin: 20px 45px 20px 5px;
   }
-
   .c7-dots{
     display: none;
   }
 }
 
-section.c8{
-    border-color: silver;
+section.c0{
+    z-index: 50;
 }
-section.c8:hover{
-    border-color: #ffb74d;
-}
-section.c8:hover > .sTitle{
-    color: #ffb74d;
-}
-
-
 section.c1{
     border-color: #e57373;
 }
@@ -346,12 +331,7 @@ section.c6{
 section.c7{
     border-color: #ba68c8;
 }
-section.c0{
-    z-index: 50;
-}
-.idx > section{
-  margin-bottom: 70px;
-}
+
 .c7-dots{
   z-index: 1500;
   padding: 5px 0;
@@ -373,20 +353,20 @@ section.c0{
 }
 .c7-dots > a > .sTitle{
   z-index: 10;
-    opacity: 0;
-    display: block;
-    position: absolute;
-    font-size: 1.2em;
-    left: -50px;
-    top: 65px;
-    border: none;
+  opacity: 0;
+  display: block;
+  position: absolute;
+  font-size: 1.2em;
+  left: -50px;
+  top: 65px;
+  border: none;
 }
 .c7-dots > a:hover > .sTitle{
   z-index: 10;
-    opacity: 1;
-    top: 90px;
-    left: -136px;
-    transition: left .3s;
+  opacity: 1;
+  top: 90px;
+  left: -136px;
+  transition: left .3s;
 }
 .c7-dots > a > div{
   z-index: 100;
@@ -455,12 +435,12 @@ section.c0{
 
 .nav{
   color: white;
-  background-color: black;
+  background-color: #1a1a1a;
   padding: 8px 10px;
 }
 .nav > a {
   color: #92cddc;
-  background-color: black !important;
+  background-color: #1a1a1a !important;
   text-decoration: none;
 }
 .nav > a:hover {
@@ -474,10 +454,10 @@ section.c0{
 
 .iceCreamCard > div{
   float:left;
-    margin: 10px 10px 0 0;
-    float: left;
-    width: 250px;
-    height: 200px;
+  margin: 10px 10px 0 0;
+  float: left;
+  width: 250px;
+  height: 200px;
 }
 .iceCreamCard>div>strong{
   margin-left: 17px;
@@ -642,12 +622,27 @@ section.c0{
   }
 }
 @media print {
+  .c7-dots,
+  .japancircle,
   .dear {
     display: none;
+  }
+  #you,
+  .me{
+    color: #1a1a1a;
+    background-color: white;
+  }
+  .me{
+    height: auto;
+    width: 100%;
+  }
+  .me > div{
+    max-width: 100%;
   }
   @page {
     margin: 1cm 1cm;
   }
+
 }
 
 .japancircle { 
