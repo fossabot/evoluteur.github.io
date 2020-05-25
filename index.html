@@ -18,133 +18,162 @@
 <body onload="setupPage()">
 
 <section id="hello" class="c0">
+	<div class="pad">
 
-   <div class="c7-dots">
-    <a href="#hello" class="c7-dots-7"><div></div><span class="sTitle">Me</span></a>
-    <a href="#code" class="c7-dots-6"><div></div><span class="sTitle">Code</span></a>
-    <a href="#recipes" class="c7-dots-5"><div></div><span class="sTitle">Cooking</span></a>
-    <a href="#fractals" class="c7-dots-4"><div></div><span class="sTitle">Inspiration</span></a>
-    <a href="#comics" class="c7-dots-3"><div></div><span class="sTitle">Graphic Novels</span></a>
-    <a href="#movies" class="c7-dots-2"><div></div><span class="sTitle">Movies</span></a>
-    <a href="#chakras" class="c7-dots-1"><div></div><span class="sTitle">Meditation</span></a>
-    <span class="clearer"></span>
-   </div>
+		<div class="c7-dots">
+			<a href="#hello" class="c7-dots-7"><div></div><span class="dTitle">Me</span></a>
+			<a href="#code" class="c7-dots-6"><div></div><span class="dTitle">Code</span></a>
+			<a href="#recipes" class="c7-dots-5"><div></div><span class="dTitle">Cooking</span></a>
+			<a href="#fractals" class="c7-dots-4"><div></div><span class="dTitle">Inspiration</span></a>
+			<a href="#comics" class="c7-dots-3"><div></div><span class="dTitle">Graphic Novels</span></a>
+			<a href="#movies" class="c7-dots-2"><div></div><span class="dTitle">Movies</span></a>
+			<a href="#chakras" class="c7-dots-1"><div></div><span class="dTitle">Meditation</span></a>
+			<span class="clearer"></span>
+		</div>
 
-	<div class="avatar-holder">
-		<div class="avatar">
-			<div class="pixTitleHolder">
-				<img src="pix/olivier/og-handlebar.jpg" onclick="switchPix(this)">
+		<div class="avatar-holder">
+			<div class="avatar">
+				<div class="pixTitleHolder">
+					<img src="pix/olivier/og-handlebar.jpg" onclick="switchPix(this)">
+				</div>
+				<span class="sociallinks">
+					<a href="https://github.com/evoluteur"><img src="pix/social/git.gif" alt="GitHub" /></a>
+					<a href="https://www.linkedin.com/in/giulieri"><img src="pix/social/in.gif" alt="LinkedIn" /></a>
+					<a href="https://www.npmjs.com/~evoluteur"><img src="pix/social/npm.gif" alt="NPM" /></a>
+					<a href="https://www.codeproject.com/script/Articles/MemberArticles.aspx?amid=849212"><img src="pix/social/cp.gif" alt="CodeProject" /></a>
+					<a href="https://www.pinterest.com/evoluteur/"><img src="pix/social/pin.gif" alt="Pinterest" /></a> 
+					<a href="https://twitter.com/evoluteur"><img src="pix/social/tw.gif" alt="Twitter" /></a>
+				</span>
 			</div>
-			<span class="sociallinks">
-				<a href="https://github.com/evoluteur"><img src="pix/social/git.gif" alt="GitHub" /></a>
-				<a href="https://www.linkedin.com/in/giulieri"><img src="pix/social/in.gif" alt="LinkedIn" /></a>
-				<a href="https://www.npmjs.com/~evoluteur"><img src="pix/social/npm.gif" alt="NPM" /></a>
-				<a href="https://www.codeproject.com/script/Articles/MemberArticles.aspx?amid=849212"><img src="pix/social/cp.gif" alt="CodeProject" /></a>
-				<a href="https://www.pinterest.com/evoluteur/"><img src="pix/social/pin.gif" alt="Pinterest" /></a> 
-				<a href="https://twitter.com/evoluteur"><img src="pix/social/tw.gif" alt="Twitter" /></a>
-			</span>
+		</div>
+		<div class="hello">
+			<h2 class="helloworld">Hello</h2>
+		</div>
+		<div class="dear">Dear anonymous visitor</div>
+		<div class="japancircle"></div>
+	</div>
+</section>
+
+<section id="me" class="c7">
+	<div class="sTitle">Me</div>
+	<div class="pad">
+		<div class="me"> 
+			<div>
+				<p>My name is <strong>Olivier Giulieri</strong> (username <strong>Evoluteur</strong>). </p>
+
+				<p>I live in the San Francisco Bay Area with my lovely cat <a href="neige.html">Neige</a>.
+				I work in Tech. I'm French.</p>
+				<p>I hope you will find this page a more fun and personal way to meet me than my <a href="https://www.linkedin.com/in/giulieri">LinkedIn</a> and <a href="https://github.com/evoluteur">GitHub</a> profiles.</p>
+			</div>		
 		</div>
 	</div>
-	
-	<div class="hello">
-		<h2 class="helloworld">Hello</h2>
-	</div>
-	<div class="dear">Dear anonymous visitor</div>
-	<div class="japancircle"></div>
 </section>
 
-<section id="me" class="c7"><div class="sTitle">Me</div>
-	<div class="me"> 
-		<div>
-			<p>My name is <strong>Olivier Giulieri</strong> (username <strong>Evoluteur</strong>). </p>
+<table>
+	<tr id="code" class="c6">
+		<td><span class="sTitle">Code</span></td>
+		<td class="pad">
+			<p>I like to code (mostly Javascript and CSS, sometimes SQL). I usually build user interfaces for startups.</p>
+			<div id="code2" class="pixGroup evolPix"></div>
 
-			<p>I live in the San Francisco Bay Area with my lovely cat <a href="neige.html">Neige</a>.
-			I work in Tech. I'm French.</p>
-			<p>I hope you will find this page a more fun and personal way to meet me than my <a href="https://www.linkedin.com/in/giulieri">LinkedIn</a> and <a href="https://github.com/evoluteur">GitHub</a> profiles.</p>
-		</div>		
-	</div>
-</section>
+			<p>My favorite quote about programming is 
+				<i>"Smart data structures and dumb code works a lot better than the
+		other way around."</i> - Eric S. Raymond
+			in <a class="extlink" href="https://en.wikipedia.org/wiki/The_Cathedral_and_the_Bazaar">The Cathedral and the Bazaar</a>. 
+			</p>
+			
+			<p>I am very interested in metadata and generic code (usually found in model-driven architecture, low-code platforms, and data visualization...).
+			I experiment with my open-source project Evolutility model-driven <a class="extlink" target="_blank" href="https://github.com/evoluteur/evolutility-ui-react">UI</a> and <a class="extlink" target="_blank" href="https://github.com/evoluteur/evolutility-server-node">backend</a>.</p>
 
-<section id="code" class="c6"><div class="sTitle">Code</div>
-	<p>I like to code (mostly Javascript and CSS, sometimes SQL). I usually build user interfaces for startups.</p>
-	<div id="code2" class="pixGroup evolPix"></div>
+		</td>
+	</tr>
+</table>
+<table>
+	<tr id="recipes" class="c5"><td><span class="sTitle">Cooking</span></td>
+		<td class="pad">
+			<p>I like to cook (and eat), especially desserts. My specialties are 
+				<a href="recipes/desserts/creme-brulee.html">crèmes brûlées</a>,
+				<a href="recipes/desserts/pear-cream-tart.html">pear cream tart</a>, and
+				<a href="recipes/desserts/madeleines.html">madeleines</a>.
+				I'm learning to make <a href="recipes/desserts/canneles.html">cannelés</a>.</p>
 
-	<p>My favorite quote about programming is 
-		<i>"Smart data structures and dumb code works a lot better than the
-other way around."</i> - Eric S. Raymond
-	in <a class="extlink" href="https://en.wikipedia.org/wiki/The_Cathedral_and_the_Bazaar">The Cathedral and the Bazaar</a>. 
-	</p>
-	
-	<p>I am very interested in metadata and generic code (usually found in model-driven architecture, low-code platforms, and data visualization...).
-	I experiment with my open-source project Evolutility model-driven <a class="extlink" target="_blank" href="https://github.com/evoluteur/evolutility-ui-react">UI</a> and <a class="extlink" target="_blank" href="https://github.com/evoluteur/evolutility-server-node">backend</a>.</p>
+			<div id="recipes2" class="pixGroup evolPix"></div>
 
-</section>
+			<p>I recently started experimenting with <a href="https://evoluteur.github.io/madeleinology/madeleines-salty.html">salty madeleines</a>. 
+				Salty madeleines with duck prosciutto are really good, but I still prefer the sweet madeleines with lemon zest and pine nuts.
+			</p>
 
-<section id="recipes" class="c5"><div class="sTitle">Cooking</div>
-	<p>I like to cook (and eat), especially desserts. My specialties are 
-		<a href="recipes/desserts/creme-brulee.html">crèmes brûlées</a>,
-		<a href="recipes/desserts/pear-cream-tart.html">pear cream tart</a>, and
-		<a href="recipes/desserts/madeleines.html">madeleines</a>.
-		I'm learning to make <a href="recipes/desserts/canneles.html">cannelés</a>.</p>
+			<p></p>
+		</td>
+	</tr>
+</table>
+<table>
+	<tr id="fractals" class="c4">
+		<td><span class="sTitle">Inspiration</span></td>
+		<td class="pad">
+			<p>I like to look at <a class="extlink" target="_blank" href="https://www.google.com/search?q=fractals&source=lnms&tbm=isch">fractals</a> (where math becomes visual art) and to think about <a class="extlink" target="_blank" href="http://www.sheldrake.org/research/morphic-resonance/introduction">morphic fields</a>.</p>
+			<div id="fractals2" class="pixGroup smallPix"></div>
 
-	<div id="recipes2" class="pixGroup evolPix"></div>
+			<p>I also like visual art made by humans. <span class="grey">... and it often contains fractals.</span></p>
 
-	<p>I recently started experimenting with <a href="https://evoluteur.github.io/madeleinology/madeleines-salty.html">salty madeleines</a>. 
-		Salty madeleines with duck prosciutto are really good, but I still prefer the sweet madeleines with lemon zest and pine nuts.
-	</p>
+			<div id="art2" class="pixGroup smallPix"></div>
 
-	<p></p>
-</section>
+			<p></p>
 
-<section id="fractals" class="c4"><div class="sTitle">Inspiration</div>
-	<p>I like to look at <a class="extlink" target="_blank" href="https://www.google.com/search?q=fractals&source=lnms&tbm=isch">fractals</a> (where math becomes visual art) and to think about <a class="extlink" target="_blank" href="http://www.sheldrake.org/research/morphic-resonance/introduction">morphic fields</a>.</p>
-	<div id="fractals2" class="pixGroup smallPix"></div>
+			<p>I recently learned that <a class="extlink" target="ted" href="https://www.ted.com/talks/brian_dettmer_old_books_reborn_as_intricate_art">old books could be reborn as art</a>, and I liked the idea, so I'm giving <a href="book-carving.html">a try at book carving</a>.</p>
+			
+		</td>
+	</tr>
+</table>
+<table>
+	<tr id="comics" class="c3">
+		<td><span class="sTitle">Graphic Novels</span></td>
+		<td class="pad">
+			<p>I like to read and collect graphic novels, mostly sci-fi, usually in French.</p>
+			<div id="comics2" class="pixGroup comicsPix"></div>
 
-	<p>I also like visual art made by humans. <span class="grey">... and it often contains fractals.</span></p>
+			<p>... and sometimes in English.</p>
+			<div id="comics_us2" class="pixGroup comicsPix"></div>
 
-	<div id="art2" class="pixGroup smallPix"></div>
-
-	<p></p>
-
-	<p>I recently learned that <a class="extlink" target="ted" href="https://www.ted.com/talks/brian_dettmer_old_books_reborn_as_intricate_art">old books could be reborn as art</a>, and I liked the idea, so I'm giving <a href="book-carving.html">a try at book carving</a>.</p>
-	 
-</section>
-
-<section id="comics" class="c3"><div class="sTitle">Graphic Novels</div>
-	<p>I like to read and collect graphic novels, mostly sci-fi, usually in French.</p>
-	<div id="comics2" class="pixGroup comicsPix"></div>
-
-	<p>... and sometimes in English.</p>
-	<div id="comics_us2" class="pixGroup comicsPix"></div>
-
-</section>
-
-<section id="movies" class="c2"><div class="sTitle">Movies</div>
-	<p>I like to watch sci-fi movies and anime but I do not own a TV.</p>
-	<div id="movies2" class="pixGroup moviePix"></div>
-</section>
-
-<section id="chakras" class="c1"><div class="sTitle">Meditation</div>
-	<p>I like to meditate and to make <a class="extlink" target="_blank" href="http://chakradesign.com/gallery.html">chakras charms</a>.</p>
-	<div id="chakras2" class="pixGroup chakraPix"></div>
-	<p>I'm learning to play the
-	 <a href="hang.html">handpan</a>.</p>
-</section>
-
+		</td>
+	</tr>
+</table>
+<table>
+	<tr id="movies" class="c2">
+		<td><span class="sTitle">Movies</span></td>
+		<td class="pad">
+			<p>I like to watch sci-fi movies and anime but I do not own a TV.</p>
+			<div id="movies2" class="pixGroup moviePix"></div>
+		</td>
+	</tr>
+</table>
+<table>
+	<tr id="chakras" class="c1">
+		<td><span class="sTitle">Meditation</span></td>
+		<td class="pad">
+			<p>I like to meditate and to make <a class="extlink" target="_blank" href="http://chakradesign.com/gallery.html">chakras charms</a>.</p>
+			<div id="chakras2" class="pixGroup chakraPix"></div>
+			<p>I'm learning to play the
+			<a href="hang.html">handpan</a>.</p>
+			</td>
+	</tr>
+</table>
 <section id="egg">
-	<div id="you">
-		<div class="ml60">Try something fun and different today:</div>
-			<div class="ml30">
-				What are <a href="https://evoluteur.github.io/motivational-numerology/" class="extlink" target="numerology">your numerology numbers</a>... and how does my friend Sally interpret them?
-			</div>
-			<div class="ml30">I'm a 
-				<div class="num c7"><span>7</span>
+	<div>
+		<div id="you">
+			<div class="ml60">Try something fun and different today:</div>
+				<div class="ml30">
+					What are <a href="https://evoluteur.github.io/motivational-numerology/" class="extlink" target="numerology">your numerology numbers</a>... and how does my friend Sally interpret them?
 				</div>
+				<div class="ml30">I'm a 
+					<div class="num c7"><span>7</span>
+					</div>
+				</div>
+			<div class="ml0"><br>
+				Maybe treat yourself with some of my favorite european graphic novels.
+				You can now find them on Amazon (compiled into single books and translated to English).<br>
+				<div id="comics_euro_us2" class="pixGroup comicsPix"></div>
 			</div>
-		<div class="ml0"><br>
-			Maybe treat yourself with some of my favorite european graphic novels.
-			You can now find them on Amazon (compiled into single books and translated to English).<br>
-			<div id="comics_euro_us2" class="pixGroup comicsPix"></div>
 		</div>
 	</div>
 </section>
