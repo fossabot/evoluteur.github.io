@@ -64,7 +64,8 @@ p.clearer{
 td {
   vertical-align: top;
 }
-.pixShadow,
+img.pixShadow,
+.pixShadow > img,
 .pixGroup img{
   position: relative;
   box-shadow: 3px 5px 3px silver;
@@ -574,6 +575,10 @@ section.c0{
   top: 570px;
   left: 600px; 
   background-image: url("../pix/bg2.gif");
+}
+.cards > div {
+  float: left;
+  margin: 10px 20px 0 0;
 }
 
 @media only screen and (max-width: 480px) {
