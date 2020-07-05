@@ -51,10 +51,6 @@ footer:hover{
 .grey{
   color: silver;
 }
-.helloworld{
-  padding: 20px 0;
-  min-width: 600px;
-}
 .clearer{
   clear: both;
 }
@@ -555,7 +551,9 @@ section.c0{
 }
 .helloworld{
   position: relative;
-  top: -14px;
+  top: -17px;
+  padding: 20px 0;
+  min-width: 600px;
 }
 .dear {
   color: white;
@@ -567,6 +565,7 @@ section.c0{
   width: 120px;
   background-color: #ffb74d;
   line-height: 40px;
+  font-size: 22px;
 }
 .japancircle { 
   position: absolute;

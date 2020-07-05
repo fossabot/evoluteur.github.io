@@ -294,6 +294,11 @@ var mediaList = {
 			title: 'Solo',
 			url: "http://www.bedetheque.com/serie-44145-BD-Solo.html"
 		},
+		{
+			id: "bolchoi_arena",
+			title: 'Bolchoi Arena',
+			url: "https://www.bedetheque.com/serie-62493-BD-Bolchoi-Arena.html"
+		},
 	]),
 	comics_us: shuffle([
 		{
