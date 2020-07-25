@@ -704,16 +704,16 @@ section.c0{
 .left404{
   left: 0;
   overflow: hidden;
-  background-color: #FFB74D;
+  background-color: #33CCFF;
   z-index: 20;
 }
 .spot404{
-  background: #E65C27;
+  background: #1A99CC;
   top: 0;
   right: -50%;
 }
 .right404{
-  background-color: #CC0000;
+  background-color: #006699;
   left: 200px;
   z-index: 10;
 }
