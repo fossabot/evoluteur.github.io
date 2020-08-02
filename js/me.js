@@ -62,6 +62,8 @@ var mediaList = {
 			title: 'Madeleines',
 			url:'recipes/desserts/madeleines.html' 
 		},
+	],
+	recipes_learning: [
 		{
 			id:'canneles', 
 			title: 'Cannelés',
