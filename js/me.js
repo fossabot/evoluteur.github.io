@@ -478,10 +478,9 @@ var linkCaptions={
 }
 function pixDir(id){
 	if(id.startsWith('comic')){
-		return 'pix/comics/'
-	}else{
-		return 'pix/'+id+'/'
+		id='comics'
 	}
+	return 'pix/'+id+'/'
 }
 
 function mosaic(id, more){
