@@ -3,6 +3,9 @@
  	(c) 2020 Olivier Giulieri 
  */
 
+html {
+  scroll-behavior: smooth;
+}
 @font-face{
   font-family:'Raleway-Regular';
   src:url('Raleway-Regular.ttf');
