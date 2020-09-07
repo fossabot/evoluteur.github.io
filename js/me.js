@@ -539,7 +539,7 @@ function setMosaic(id){
 }
 function setMosaicNoLinks(id){
 	var ext=id==='code'?'.gif':'.jpg',
-		arrList=mediaList[id].slice(0,5),
+		arrList=mediaList[id].slice(0, 4),
 		holder=e(id+'2'),
 		dir='pix/'+id+'/';
 
