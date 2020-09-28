@@ -84,6 +84,21 @@ img.pixShadow,
   transition: top 0.6s, left 0.6s;
 }
 
+.gh-network{
+  border: solid 1px grey;
+  background-color: white;
+  box-shadow: 3px 5px 3px silver;
+  margin-bottom: 50px;
+
+}
+.gh-network:hover{
+  top: 3px;
+  left: 2px;
+  box-shadow: 1px 2px 1px silver;
+  transition: top 0.6s, left 0.6s;
+}
+
+
 .comicsPix img{
   height: 140px;
   width: 110px;
@@ -511,21 +526,18 @@ section.c0{
   max-height: 390px;
 }
 .japancircle { 
-  float: left;
-
   position: absolute;
+  float: left;
   top: 80px;
   left: 460px;
-
   height: 240px;
   width: 240px;
   background-image: url("../pix/bg2.gif");
 }
 .jcircle{
   float: right;
-
   position: relative;
-  top: 20px;
+  top: 70px;
   right: 40px;
   border-radius: 50%;
   height: 180px;
